@@ -5,7 +5,7 @@ using NUnit.Framework;
 
 namespace Tests
 {
-    public class BasicCoding
+    public class BasicCodingTest
     {
         [SetUp]
         public void Setup()
@@ -54,8 +54,8 @@ namespace Tests
         [TestCase(1234321,1241233)]
         [TestCase(1234126,1234162)]
         [TestCase(3456432,3462345)]
-        [TestCase(10, -1)]
-        [TestCase(20, -1)]
+        [TestCase(10, 1)]
+        [TestCase(20, 1)]
         public void Test_FindNextBiggerNumber(int number, int expected)
         {
             var result = Tasks.FindNextBiggerNumber(number);
@@ -63,6 +63,16 @@ namespace Tests
             Assert.AreEqual(result.Item1,expected);
         }
         
-        
+        [TestCase(3, new []{12, 10, 32, 33, 43 ,22 ,35, 11, 28}, ExpectedResult = new []{32,33,43,35})]
+        [TestCase(1, new []{12, 10, 32, 33, 43 ,22 ,35, 11, 28}, ExpectedResult = new []{12,10,11})]
+        [TestCase(2, new []{12, 10, 32, 33, 43 ,22 ,35, 11, 28}, ExpectedResult = new []{12,32,22,28})]
+        public int[] Test_FilterDigit(int number, int[] arr)
+        {
+            var result = Tasks.FilterDigit(number, arr);
+
+            return result;
+        }
+
+
     }
 }
