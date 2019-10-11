@@ -1,0 +1,2217 @@
+Index: .idea/.idea.dotNET Basics/.idea/contentModel.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.dotNET Basics/.idea/contentModel.xml	(date 1570821942878)
++++ .idea/.idea.dotNET Basics/.idea/contentModel.xml	(date 1570821942878)
+@@ -1,12 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ContentModelStore">
+-    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0" t="Include">
+-      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+-    </e>
+-    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/nunit.engine.netstandard.dll" t="Include" />
+-    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/NUnit3.TestAdapter.dll" t="Include" />
+-    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/NUnit3.TestAdapter.pdb" t="Include" />
+     <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+     <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_dotNET Basics.-1787111282.00" t="ExcludeRecursive" />
+     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+@@ -14,29 +8,10 @@
+     <e p="$PROJECT_DIR$" t="IncludeFlat">
+       <e p="BasicCoding" t="IncludeRecursive">
+         <e p="BasicCoding.csproj" t="IncludeRecursive" />
+-        <e p="bin" t="ExcludeRecursive" />
+-        <e p="obj" t="ExcludeRecursive">
+-          <e p="Debug" t="Include">
+-            <e p="netcoreapp3.0" t="Include">
+-              <e p="BasicCoding.AssemblyInfo.cs" t="Include" />
+-            </e>
+-          </e>
+-        </e>
+-        <e p="Tasks.cs" t="Include" />
+       </e>
+       <e p="dotNET Basics.sln" t="IncludeFlat" />
+       <e p="Introduction and .NET Basics" t="Include" />
+-      <e p="packages" t="ExcludeRecursive" />
+       <e p="Tests" t="IncludeRecursive">
+-        <e p="BasicCoding.cs" t="Include" />
+-        <e p="bin" t="ExcludeRecursive" />
+-        <e p="obj" t="ExcludeRecursive">
+-          <e p="Debug" t="Include">
+-            <e p="netcoreapp3.0" t="Include">
+-              <e p="Tests.AssemblyInfo.cs" t="Include" />
+-            </e>
+-          </e>
+-        </e>
+         <e p="Tests.csproj" t="IncludeRecursive" />
+       </e>
+     </e>
+Index: .idea/.idea.dotNET Basics/.idea/$PRODUCT_WORKSPACE_FILE$
+===================================================================
+--- .idea/.idea.dotNET Basics/.idea/$PRODUCT_WORKSPACE_FILE$	(date 0)
++++ .idea/.idea.dotNET Basics/.idea/$PRODUCT_WORKSPACE_FILE$	(date 0)
+@@ -1,18 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="masterDetails">
+-    <states>
+-      <state key="ScopeChooserConfigurable.UI">
+-        <settings>
+-          <splitter-proportions>
+-            <option name="proportions">
+-              <list>
+-                <option value="0.2" />
+-              </list>
+-            </option>
+-          </splitter-proportions>
+-        </settings>
+-      </state>
+-    </states>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/.idea.dotNET Basics/.idea/.gitignore
+===================================================================
+--- .idea/.idea.dotNET Basics/.idea/.gitignore	(date 0)
++++ .idea/.idea.dotNET Basics/.idea/.gitignore	(date 0)
+@@ -1,2 +0,0 @@
+-# Default ignored files
+-/workspace.xml
+\ No newline at end of file
+Index: .idea/.idea.dotNET Basics/.idea/projectSettingsUpdater.xml
+===================================================================
+--- .idea/.idea.dotNET Basics/.idea/projectSettingsUpdater.xml	(date 0)
++++ .idea/.idea.dotNET Basics/.idea/projectSettingsUpdater.xml	(date 0)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RiderProjectSettingsUpdater">
+-    <option name="vcsConfiguration" value="1" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/.idea.dotNET Basics/.idea/modules.xml
+===================================================================
+--- .idea/.idea.dotNET Basics/.idea/modules.xml	(date 0)
++++ .idea/.idea.dotNET Basics/.idea/modules.xml	(date 0)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/.idea.dotNET Basics/riderModule.iml" filepath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/riderModule.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/.idea.dotNET Basics/.idea/vcs.xml
+===================================================================
+--- .idea/.idea.dotNET Basics/.idea/vcs.xml	(date 0)
++++ .idea/.idea.dotNET Basics/.idea/vcs.xml	(date 0)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/.idea.dotNET Basics/riderModule.iml
+===================================================================
+--- .idea/.idea.dotNET Basics/riderModule.iml	(date 0)
++++ .idea/.idea.dotNET Basics/riderModule.iml	(date 0)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="RIDER_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0" />
+-    <content url="file://$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/NUnit3.TestAdapter.dll" />
+-    <content url="file://$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/NUnit3.TestAdapter.pdb" />
+-    <content url="file://$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/nunit.engine.netstandard.dll" />
+-    <content url="file://$MODULE_DIR$/../.." />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/.gitignore
+===================================================================
+--- .idea/.gitignore	(date 0)
++++ .idea/.gitignore	(date 0)
+@@ -1,0 +0,0 @@
+Index: Tests/bin/Debug/netcoreapp3.0/Tests.deps.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Tests/bin/Debug/netcoreapp3.0/Tests.deps.json	(date 1570821443954)
++++ Tests/bin/Debug/netcoreapp3.0/Tests.deps.json	(date 1570821443954)
+@@ -1,0 +1,1535 @@
++{
++  "runtimeTarget": {
++    "name": ".NETCoreApp,Version=v3.0",
++    "signature": ""
++  },
++  "compilationOptions": {},
++  "targets": {
++    ".NETCoreApp,Version=v3.0": {
++      "Tests/1.0.0": {
++        "dependencies": {
++          "BasicCoding": "1.0.0",
++          "Microsoft.NET.Test.Sdk": "16.2.0",
++          "NUnit3TestAdapter": "3.13.0",
++          "NUnit": "3.12.0"
++        },
++        "runtime": {
++          "Tests.dll": {}
++        }
++      },
++      "Microsoft.CodeCoverage/16.2.0": {
++        "runtime": {
++          "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
++            "assemblyVersion": "15.0.0.0",
++            "fileVersion": "16.0.28223.3002"
++          }
++        }
++      },
++      "Microsoft.CSharp/4.0.1": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Dynamic.Runtime": "4.0.11",
++          "System.Globalization": "4.3.0",
++          "System.Linq": "4.3.0",
++          "System.Linq.Expressions": "4.1.0",
++          "System.ObjectModel": "4.0.12",
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Extensions": "4.3.0",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Reflection.TypeExtensions": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Runtime.InteropServices": "4.3.0",
++          "System.Threading": "4.3.0"
++        }
++      },
++      "Microsoft.DotNet.InternalAbstractions/1.0.0": {
++        "dependencies": {
++          "System.AppContext": "4.1.0",
++          "System.Collections": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.IO.FileSystem": "4.3.0",
++          "System.Reflection.TypeExtensions": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Runtime.InteropServices": "4.3.0",
++          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
++        },
++        "runtime": {
++          "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll": {
++            "assemblyVersion": "1.0.0.0",
++            "fileVersion": "1.0.0.0"
++          }
++        }
++      },
++      "Microsoft.NET.Test.Sdk/16.2.0": {
++        "dependencies": {
++          "Microsoft.CodeCoverage": "16.2.0",
++          "Microsoft.TestPlatform.TestHost": "16.2.0"
++        }
++      },
++      "Microsoft.NETCore.Platforms/1.1.0": {},
++      "Microsoft.NETCore.Targets/1.1.0": {},
++      "Microsoft.TestPlatform.ObjectModel/16.2.0": {
++        "dependencies": {
++          "NETStandard.Library": "2.0.0",
++          "System.ComponentModel.EventBasedAsync": "4.3.0",
++          "System.ComponentModel.TypeConverter": "4.3.0",
++          "System.Diagnostics.Process": "4.3.0",
++          "System.Diagnostics.TextWriterTraceListener": "4.0.0",
++          "System.Diagnostics.TraceSource": "4.0.0",
++          "System.Reflection.Metadata": "1.3.0",
++          "System.Reflection.TypeExtensions": "4.3.0",
++          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0",
++          "System.Runtime.Loader": "4.0.0",
++          "System.Runtime.Serialization.Json": "4.0.2",
++          "System.Runtime.Serialization.Primitives": "4.1.1",
++          "System.Threading.Thread": "4.3.0",
++          "System.Xml.XPath.XmlDocument": "4.3.0"
++        },
++        "runtime": {
++          "lib/netstandard1.5/Microsoft.TestPlatform.CoreUtilities.dll": {
++            "assemblyVersion": "15.0.0.0",
++            "fileVersion": "15.0.0.0"
++          },
++          "lib/netstandard1.5/Microsoft.TestPlatform.PlatformAbstractions.dll": {
++            "assemblyVersion": "15.0.0.0",
++            "fileVersion": "15.0.0.0"
++          },
++          "lib/netstandard1.5/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {
++            "assemblyVersion": "15.0.0.0",
++            "fileVersion": "15.0.0.0"
++          }
++        },
++        "resources": {
++          "lib/netstandard1.5/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "cs"
++          },
++          "lib/netstandard1.5/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "cs"
++          },
++          "lib/netstandard1.5/de/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "de"
++          },
++          "lib/netstandard1.5/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "de"
++          },
++          "lib/netstandard1.5/es/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "es"
++          },
++          "lib/netstandard1.5/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "es"
++          },
++          "lib/netstandard1.5/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "fr"
++          },
++          "lib/netstandard1.5/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "fr"
++          },
++          "lib/netstandard1.5/it/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "it"
++          },
++          "lib/netstandard1.5/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "it"
++          },
++          "lib/netstandard1.5/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "ja"
++          },
++          "lib/netstandard1.5/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "ja"
++          },
++          "lib/netstandard1.5/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "ko"
++          },
++          "lib/netstandard1.5/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "ko"
++          },
++          "lib/netstandard1.5/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "pl"
++          },
++          "lib/netstandard1.5/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "pl"
++          },
++          "lib/netstandard1.5/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "pt-BR"
++          },
++          "lib/netstandard1.5/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "pt-BR"
++          },
++          "lib/netstandard1.5/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "ru"
++          },
++          "lib/netstandard1.5/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "ru"
++          },
++          "lib/netstandard1.5/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "tr"
++          },
++          "lib/netstandard1.5/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "tr"
++          },
++          "lib/netstandard1.5/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "zh-Hans"
++          },
++          "lib/netstandard1.5/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "zh-Hans"
++          },
++          "lib/netstandard1.5/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
++            "locale": "zh-Hant"
++          },
++          "lib/netstandard1.5/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
++            "locale": "zh-Hant"
++          }
++        }
++      },
++      "Microsoft.TestPlatform.TestHost/16.2.0": {
++        "dependencies": {
++          "Microsoft.TestPlatform.ObjectModel": "16.2.0",
++          "Newtonsoft.Json": "9.0.1"
++        },
++        "runtime": {
++          "lib/netstandard1.5/Microsoft.TestPlatform.CommunicationUtilities.dll": {
++            "assemblyVersion": "15.0.0.0",
++            "fileVersion": "15.0.0.0"
++          },
++          "lib/netstandard1.5/Microsoft.TestPlatform.CrossPlatEngine.dll": {
++            "assemblyVersion": "15.0.0.0",
++            "fileVersion": "15.0.0.0"
++          },
++          "lib/netstandard1.5/Microsoft.TestPlatform.Utilities.dll": {
++            "assemblyVersion": "15.0.0.0",
++            "fileVersion": "15.0.0.0"
++          },
++          "lib/netstandard1.5/Microsoft.VisualStudio.TestPlatform.Common.dll": {
++            "assemblyVersion": "15.0.0.0",
++            "fileVersion": "15.0.0.0"
++          },
++          "lib/netstandard1.5/testhost.dll": {
++            "assemblyVersion": "15.0.0.0",
++            "fileVersion": "15.0.0.0"
++          }
++        },
++        "resources": {
++          "lib/netstandard1.5/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "cs"
++          },
++          "lib/netstandard1.5/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "cs"
++          },
++          "lib/netstandard1.5/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "cs"
++          },
++          "lib/netstandard1.5/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "de"
++          },
++          "lib/netstandard1.5/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "de"
++          },
++          "lib/netstandard1.5/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "de"
++          },
++          "lib/netstandard1.5/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "es"
++          },
++          "lib/netstandard1.5/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "es"
++          },
++          "lib/netstandard1.5/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "es"
++          },
++          "lib/netstandard1.5/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "fr"
++          },
++          "lib/netstandard1.5/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "fr"
++          },
++          "lib/netstandard1.5/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "fr"
++          },
++          "lib/netstandard1.5/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "it"
++          },
++          "lib/netstandard1.5/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "it"
++          },
++          "lib/netstandard1.5/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "it"
++          },
++          "lib/netstandard1.5/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "ja"
++          },
++          "lib/netstandard1.5/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "ja"
++          },
++          "lib/netstandard1.5/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "ja"
++          },
++          "lib/netstandard1.5/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "ko"
++          },
++          "lib/netstandard1.5/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "ko"
++          },
++          "lib/netstandard1.5/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "ko"
++          },
++          "lib/netstandard1.5/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "pl"
++          },
++          "lib/netstandard1.5/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "pl"
++          },
++          "lib/netstandard1.5/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "pl"
++          },
++          "lib/netstandard1.5/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "pt-BR"
++          },
++          "lib/netstandard1.5/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "pt-BR"
++          },
++          "lib/netstandard1.5/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "pt-BR"
++          },
++          "lib/netstandard1.5/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "ru"
++          },
++          "lib/netstandard1.5/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "ru"
++          },
++          "lib/netstandard1.5/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "ru"
++          },
++          "lib/netstandard1.5/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "tr"
++          },
++          "lib/netstandard1.5/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "tr"
++          },
++          "lib/netstandard1.5/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "tr"
++          },
++          "lib/netstandard1.5/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "zh-Hans"
++          },
++          "lib/netstandard1.5/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "zh-Hans"
++          },
++          "lib/netstandard1.5/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "zh-Hans"
++          },
++          "lib/netstandard1.5/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
++            "locale": "zh-Hant"
++          },
++          "lib/netstandard1.5/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll": {
++            "locale": "zh-Hant"
++          },
++          "lib/netstandard1.5/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll": {
++            "locale": "zh-Hant"
++          }
++        }
++      },
++      "Microsoft.Win32.Primitives/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "Microsoft.Win32.Registry/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "System.Collections": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Runtime.Handles": "4.3.0",
++          "System.Runtime.InteropServices": "4.3.0"
++        }
++      },
++      "NETStandard.Library/2.0.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0"
++        }
++      },
++      "Newtonsoft.Json/9.0.1": {
++        "dependencies": {
++          "Microsoft.CSharp": "4.0.1",
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Dynamic.Runtime": "4.0.11",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.Linq": "4.3.0",
++          "System.Linq.Expressions": "4.1.0",
++          "System.ObjectModel": "4.0.12",
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Extensions": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Runtime.Serialization.Primitives": "4.1.1",
++          "System.Text.Encoding": "4.3.0",
++          "System.Text.Encoding.Extensions": "4.3.0",
++          "System.Text.RegularExpressions": "4.3.0",
++          "System.Threading": "4.3.0",
++          "System.Threading.Tasks": "4.3.0",
++          "System.Xml.ReaderWriter": "4.3.0",
++          "System.Xml.XDocument": "4.0.11"
++        },
++        "runtime": {
++          "lib/netstandard1.0/Newtonsoft.Json.dll": {
++            "assemblyVersion": "9.0.0.0",
++            "fileVersion": "9.0.1.19813"
++          }
++        }
++      },
++      "NUnit/3.12.0": {
++        "dependencies": {
++          "NETStandard.Library": "2.0.0"
++        },
++        "runtime": {
++          "lib/netstandard2.0/nunit.framework.dll": {
++            "assemblyVersion": "3.12.0.0",
++            "fileVersion": "3.12.0.0"
++          }
++        }
++      },
++      "NUnit3TestAdapter/3.13.0": {
++        "dependencies": {
++          "Microsoft.DotNet.InternalAbstractions": "1.0.0",
++          "System.ComponentModel.EventBasedAsync": "4.3.0",
++          "System.ComponentModel.TypeConverter": "4.3.0",
++          "System.Diagnostics.Process": "4.3.0",
++          "System.Reflection": "4.3.0",
++          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0",
++          "System.Threading.Thread": "4.3.0",
++          "System.Xml.XPath.XmlDocument": "4.3.0",
++          "System.Xml.XmlDocument": "4.3.0"
++        }
++      },
++      "runtime.native.System/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0"
++        }
++      },
++      "System.AppContext/4.1.0": {
++        "dependencies": {
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Collections/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Collections.Concurrent/4.0.12": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Diagnostics.Tracing": "4.1.0",
++          "System.Globalization": "4.3.0",
++          "System.Reflection": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Threading": "4.3.0",
++          "System.Threading.Tasks": "4.3.0"
++        }
++      },
++      "System.Collections.Immutable/1.2.0": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.Linq": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Threading": "4.3.0"
++        }
++      },
++      "System.Collections.NonGeneric/4.3.0": {
++        "dependencies": {
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Threading": "4.3.0"
++        }
++      },
++      "System.Collections.Specialized/4.3.0": {
++        "dependencies": {
++          "System.Collections.NonGeneric": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.Globalization.Extensions": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Threading": "4.3.0"
++        }
++      },
++      "System.ComponentModel/4.3.0": {
++        "dependencies": {
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.ComponentModel.EventBasedAsync/4.3.0": {
++        "dependencies": {
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Threading": "4.3.0",
++          "System.Threading.Tasks": "4.3.0"
++        }
++      },
++      "System.ComponentModel.Primitives/4.3.0": {
++        "dependencies": {
++          "System.ComponentModel": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.ComponentModel.TypeConverter/4.3.0": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Collections.NonGeneric": "4.3.0",
++          "System.Collections.Specialized": "4.3.0",
++          "System.ComponentModel": "4.3.0",
++          "System.ComponentModel.Primitives": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.Linq": "4.3.0",
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Extensions": "4.3.0",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Reflection.TypeExtensions": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Threading": "4.3.0"
++        }
++      },
++      "System.Diagnostics.Debug/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Diagnostics.Process/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.Win32.Primitives": "4.3.0",
++          "Microsoft.Win32.Registry": "4.3.0",
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.IO.FileSystem": "4.3.0",
++          "System.IO.FileSystem.Primitives": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Runtime.Handles": "4.3.0",
++          "System.Runtime.InteropServices": "4.3.0",
++          "System.Text.Encoding": "4.3.0",
++          "System.Text.Encoding.Extensions": "4.3.0",
++          "System.Threading": "4.3.0",
++          "System.Threading.Tasks": "4.3.0",
++          "System.Threading.Thread": "4.3.0",
++          "System.Threading.ThreadPool": "4.3.0",
++          "runtime.native.System": "4.3.0"
++        }
++      },
++      "System.Diagnostics.TextWriterTraceListener/4.0.0": {
++        "dependencies": {
++          "System.Diagnostics.TraceSource": "4.0.0",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Threading": "4.3.0"
++        }
++      },
++      "System.Diagnostics.Tools/4.0.1": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Diagnostics.TraceSource/4.0.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Threading": "4.3.0",
++          "runtime.native.System": "4.3.0"
++        }
++      },
++      "System.Diagnostics.Tracing/4.1.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Dynamic.Runtime/4.0.11": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.Linq": "4.3.0",
++          "System.Linq.Expressions": "4.1.0",
++          "System.ObjectModel": "4.0.12",
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Emit": "4.0.1",
++          "System.Reflection.Emit.ILGeneration": "4.0.1",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Reflection.TypeExtensions": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Threading": "4.3.0"
++        }
++      },
++      "System.Globalization/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Globalization.Extensions/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "System.Globalization": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Runtime.InteropServices": "4.3.0"
++        }
++      },
++      "System.IO/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0",
++          "System.Text.Encoding": "4.3.0",
++          "System.Threading.Tasks": "4.3.0"
++        }
++      },
++      "System.IO.FileSystem/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.IO": "4.3.0",
++          "System.IO.FileSystem.Primitives": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Handles": "4.3.0",
++          "System.Text.Encoding": "4.3.0",
++          "System.Threading.Tasks": "4.3.0"
++        }
++      },
++      "System.IO.FileSystem.Primitives/4.3.0": {
++        "dependencies": {
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Linq/4.3.0": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0"
++        }
++      },
++      "System.Linq.Expressions/4.1.0": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.Linq": "4.3.0",
++          "System.ObjectModel": "4.0.12",
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Emit": "4.0.1",
++          "System.Reflection.Emit.ILGeneration": "4.0.1",
++          "System.Reflection.Emit.Lightweight": "4.0.1",
++          "System.Reflection.Extensions": "4.3.0",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Reflection.TypeExtensions": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Threading": "4.3.0"
++        }
++      },
++      "System.ObjectModel/4.0.12": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Threading": "4.3.0"
++        }
++      },
++      "System.Private.DataContractSerialization/4.1.1": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Collections.Concurrent": "4.0.12",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.Linq": "4.3.0",
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Emit.ILGeneration": "4.0.1",
++          "System.Reflection.Emit.Lightweight": "4.0.1",
++          "System.Reflection.Extensions": "4.3.0",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Reflection.TypeExtensions": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Runtime.Serialization.Primitives": "4.1.1",
++          "System.Text.Encoding": "4.3.0",
++          "System.Text.Encoding.Extensions": "4.3.0",
++          "System.Text.RegularExpressions": "4.3.0",
++          "System.Threading": "4.3.0",
++          "System.Threading.Tasks": "4.3.0",
++          "System.Xml.ReaderWriter": "4.3.0",
++          "System.Xml.XmlDocument": "4.3.0",
++          "System.Xml.XmlSerializer": "4.0.11"
++        }
++      },
++      "System.Reflection/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.IO": "4.3.0",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Reflection.Emit/4.0.1": {
++        "dependencies": {
++          "System.IO": "4.3.0",
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Emit.ILGeneration": "4.0.1",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Reflection.Emit.ILGeneration/4.0.1": {
++        "dependencies": {
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Reflection.Emit.Lightweight/4.0.1": {
++        "dependencies": {
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Emit.ILGeneration": "4.0.1",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Reflection.Extensions/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Reflection": "4.3.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Reflection.Metadata/1.3.0": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Collections.Immutable": "1.2.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.Linq": "4.3.0",
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Extensions": "4.3.0",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Runtime.InteropServices": "4.3.0",
++          "System.Text.Encoding": "4.3.0",
++          "System.Text.Encoding.Extensions": "4.3.0",
++          "System.Threading": "4.3.0"
++        }
++      },
++      "System.Reflection.Primitives/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Reflection.TypeExtensions/4.3.0": {
++        "dependencies": {
++          "System.Reflection": "4.3.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Resources.ResourceManager/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Globalization": "4.3.0",
++          "System.Reflection": "4.3.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Runtime/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0"
++        }
++      },
++      "System.Runtime.Extensions/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Runtime.Handles/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Runtime.InteropServices/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Handles": "4.3.0"
++        }
++      },
++      "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
++        "dependencies": {
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Extensions": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.InteropServices": "4.3.0",
++          "System.Threading": "4.3.0",
++          "runtime.native.System": "4.3.0"
++        }
++      },
++      "System.Runtime.Loader/4.0.0": {
++        "dependencies": {
++          "System.IO": "4.3.0",
++          "System.Reflection": "4.3.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Runtime.Serialization.Json/4.0.2": {
++        "dependencies": {
++          "System.IO": "4.3.0",
++          "System.Private.DataContractSerialization": "4.1.1",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Runtime.Serialization.Primitives/4.1.1": {
++        "dependencies": {
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Text.Encoding/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Text.Encoding.Extensions/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0",
++          "System.Text.Encoding": "4.3.0"
++        }
++      },
++      "System.Text.RegularExpressions/4.3.0": {
++        "dependencies": {
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Threading/4.3.0": {
++        "dependencies": {
++          "System.Runtime": "4.3.0",
++          "System.Threading.Tasks": "4.3.0"
++        }
++      },
++      "System.Threading.Tasks/4.3.0": {
++        "dependencies": {
++          "Microsoft.NETCore.Platforms": "1.1.0",
++          "Microsoft.NETCore.Targets": "1.1.0",
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Threading.Tasks.Extensions/4.3.0": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Threading.Tasks": "4.3.0"
++        }
++      },
++      "System.Threading.Thread/4.3.0": {
++        "dependencies": {
++          "System.Runtime": "4.3.0"
++        }
++      },
++      "System.Threading.ThreadPool/4.3.0": {
++        "dependencies": {
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Handles": "4.3.0"
++        }
++      },
++      "System.Xml.ReaderWriter/4.3.0": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.IO.FileSystem": "4.3.0",
++          "System.IO.FileSystem.Primitives": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Runtime.InteropServices": "4.3.0",
++          "System.Text.Encoding": "4.3.0",
++          "System.Text.Encoding.Extensions": "4.3.0",
++          "System.Text.RegularExpressions": "4.3.0",
++          "System.Threading.Tasks": "4.3.0",
++          "System.Threading.Tasks.Extensions": "4.3.0"
++        }
++      },
++      "System.Xml.XDocument/4.0.11": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Diagnostics.Tools": "4.0.1",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.Reflection": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Text.Encoding": "4.3.0",
++          "System.Threading": "4.3.0",
++          "System.Xml.ReaderWriter": "4.3.0"
++        }
++      },
++      "System.Xml.XmlDocument/4.3.0": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Text.Encoding": "4.3.0",
++          "System.Threading": "4.3.0",
++          "System.Xml.ReaderWriter": "4.3.0"
++        }
++      },
++      "System.Xml.XmlSerializer/4.0.11": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.Linq": "4.3.0",
++          "System.Reflection": "4.3.0",
++          "System.Reflection.Emit": "4.0.1",
++          "System.Reflection.Emit.ILGeneration": "4.0.1",
++          "System.Reflection.Extensions": "4.3.0",
++          "System.Reflection.Primitives": "4.3.0",
++          "System.Reflection.TypeExtensions": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Text.RegularExpressions": "4.3.0",
++          "System.Threading": "4.3.0",
++          "System.Xml.ReaderWriter": "4.3.0",
++          "System.Xml.XmlDocument": "4.3.0"
++        }
++      },
++      "System.Xml.XPath/4.3.0": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Diagnostics.Debug": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Threading": "4.3.0",
++          "System.Xml.ReaderWriter": "4.3.0"
++        }
++      },
++      "System.Xml.XPath.XmlDocument/4.3.0": {
++        "dependencies": {
++          "System.Collections": "4.3.0",
++          "System.Globalization": "4.3.0",
++          "System.IO": "4.3.0",
++          "System.Resources.ResourceManager": "4.3.0",
++          "System.Runtime": "4.3.0",
++          "System.Runtime.Extensions": "4.3.0",
++          "System.Threading": "4.3.0",
++          "System.Xml.ReaderWriter": "4.3.0",
++          "System.Xml.XPath": "4.3.0",
++          "System.Xml.XmlDocument": "4.3.0"
++        },
++        "runtime": {
++          "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {
++            "assemblyVersion": "4.0.2.0",
++            "fileVersion": "4.6.24705.1"
++          }
++        }
++      },
++      "BasicCoding/1.0.0": {
++        "runtime": {
++          "BasicCoding.dll": {}
++        }
++      }
++    }
++  },
++  "libraries": {
++    "Tests/1.0.0": {
++      "type": "project",
++      "serviceable": false,
++      "sha512": ""
++    },
++    "Microsoft.CodeCoverage/16.2.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-kfHUP8A4og9TZ9mqtmkQXcdRTfvnSSYLUnicCadavMa9wADuDH9DIjHUzAnpm/W4Y91iidgTNC902drSOmUWJQ==",
++      "path": "microsoft.codecoverage/16.2.0",
++      "hashPath": "microsoft.codecoverage.16.2.0.nupkg.sha512"
++    },
++    "Microsoft.CSharp/4.0.1": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-MZ8fPqIgqv1QQcvL83m+e/0Ybi5iNG+nZnZR9LzRlKmq4/MTKrUkIxsq79V1ndTj5cam8ESNMmX+sy6mu4uk6A==",
++      "path": "microsoft.csharp/4.0.1",
++      "hashPath": "microsoft.csharp.4.0.1.nupkg.sha512"
++    },
++    "Microsoft.DotNet.InternalAbstractions/1.0.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-AAguUq7YyKk3yDWPoWA8DrLZvURxB/LrDdTn1h5lmPeznkFUpfC3p459w5mQYQE0qpquf/CkSQZ0etiV5vRHFA==",
++      "path": "microsoft.dotnet.internalabstractions/1.0.0",
++      "hashPath": "microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512"
++    },
++    "Microsoft.NET.Test.Sdk/16.2.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-4eLVyBLaFX+5huQXiZMj0EEiYshvS4H3iQ4s8eRGx6G1jtXWbKw+3NFhpWNokdopVObQnBnoZQid0acSBmtdJA==",
++      "path": "microsoft.net.test.sdk/16.2.0",
++      "hashPath": "microsoft.net.test.sdk.16.2.0.nupkg.sha512"
++    },
++    "Microsoft.NETCore.Platforms/1.1.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-tD/NAdZb77lzGjG53UtJOqdJ83OiE7WYPnp3qukD7gYKze3sWHay4+GIitQSzVxdk5oFyME9td3Uw+3dWAO32w==",
++      "path": "microsoft.netcore.platforms/1.1.0",
++      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
++    },
++    "Microsoft.NETCore.Targets/1.1.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-SfksMG8Mp8BNkONbCwvhftueA7xLip1IGmHlqcR/SSCOI6StjOFo/07qiLEA//htg6f/H6zHkjdRCR015B4IQA==",
++      "path": "microsoft.netcore.targets/1.1.0",
++      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
++    },
++    "Microsoft.TestPlatform.ObjectModel/16.2.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-dUP0/57sU4J0IePL1su3+g6J0+rHm0Uv97tFOT9DoEYSlE3qP4ZWNVNXaWis29eiZnfGdVVeiSnhs9TiA4fvHw==",
++      "path": "microsoft.testplatform.objectmodel/16.2.0",
++      "hashPath": "microsoft.testplatform.objectmodel.16.2.0.nupkg.sha512"
++    },
++    "Microsoft.TestPlatform.TestHost/16.2.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-ItivpSuOkWdM0RYibCnS4ERD67bRsxyZXH+MUohGvFAa9mogzS0et6rThZlXOAkIUN3EPMw4Zx7aQn4n28pkng==",
++      "path": "microsoft.testplatform.testhost/16.2.0",
++      "hashPath": "microsoft.testplatform.testhost.16.2.0.nupkg.sha512"
++    },
++    "Microsoft.Win32.Primitives/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-NSrcvwb8TK0Eu/ruwJB/FQtPRkgmTEimuJHzp+AHLYmoiBuDASRjk+bgsBMlN+nOBQhIltvsqu/EfjWCPKZ4CA==",
++      "path": "microsoft.win32.primitives/4.3.0",
++      "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
++    },
++    "Microsoft.Win32.Registry/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-Lw1/VwLH1yxz6SfFEjVRCN0pnflLEsWgnV4qsdJ512/HhTwnKXUG+zDQ4yTO3K/EJQemGoNaBHX5InISNKTzUQ==",
++      "path": "microsoft.win32.registry/4.3.0",
++      "hashPath": "microsoft.win32.registry.4.3.0.nupkg.sha512"
++    },
++    "NETStandard.Library/2.0.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
++      "path": "netstandard.library/2.0.0",
++      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
++    },
++    "Newtonsoft.Json/9.0.1": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-KYWZlK4qLKcQLgLoq57V7ofKF7N20CdL4Y4CkvafP1pZc7D9RwDypyllijNvKhIFG0z/tyeOplqmBwZhlUD4vQ==",
++      "path": "newtonsoft.json/9.0.1",
++      "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
++    },
++    "NUnit/3.12.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
++      "path": "nunit/3.12.0",
++      "hashPath": "nunit.3.12.0.nupkg.sha512"
++    },
++    "NUnit3TestAdapter/3.13.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-9OlA81APTyR/tNkapK2a2dlz4jFra7/Bm1eYT1P1lIq2cJv4OYtWD5uHj3XsO1dz3btiwbIFrWBtZNr/ebRhSw==",
++      "path": "nunit3testadapter/3.13.0",
++      "hashPath": "nunit3testadapter.3.13.0.nupkg.sha512"
++    },
++    "runtime.native.System/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-T50yuLoa2TYMbsTh6JnNMgUR/JxZKjCHEfmdO4oFmMaDgAZISAeJuJwQ3mdbTE3pvm+JIB9JRdB4W5WdXU8xNA==",
++      "path": "runtime.native.system/4.3.0",
++      "hashPath": "runtime.native.system.4.3.0.nupkg.sha512"
++    },
++    "System.AppContext/4.1.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-kIRU+cvx2nLLzrfT3Dg3HS9o6XljVSoSAW7sYzUwxFq0ommm6Jzxcy2eMvXCiSgstN5m0Wpkn8C8CCnzX/AnBg==",
++      "path": "system.appcontext/4.1.0",
++      "hashPath": "system.appcontext.4.1.0.nupkg.sha512"
++    },
++    "System.Collections/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-3/a5OLWbVCwaz4lYP+8PpcUPCRItlMdY1BxQHn92IMc698Z14hV/nRtHkGdAYVel/neF4ssFDIDWEskXudunBA==",
++      "path": "system.collections/4.3.0",
++      "hashPath": "system.collections.4.3.0.nupkg.sha512"
++    },
++    "System.Collections.Concurrent/4.0.12": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-OxI0VenAn7JPY4Bif0wcZq6b2gzAuLQ41ktlTXlhtYadarWCYOUe9CL3Q1s0E4ohOC796cmhfdnlLEtpcXl2TQ==",
++      "path": "system.collections.concurrent/4.0.12",
++      "hashPath": "system.collections.concurrent.4.0.12.nupkg.sha512"
++    },
++    "System.Collections.Immutable/1.2.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-QxbSZLUZlm/mbXr99ykKtpGGDChcca0hMWBRVwRs4cd8JDWNSk9GCijipO70SEbt5q0+WBq0nq/N0SN4pRNxJg==",
++      "path": "system.collections.immutable/1.2.0",
++      "hashPath": "system.collections.immutable.1.2.0.nupkg.sha512"
++    },
++    "System.Collections.NonGeneric/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-s/x1H4RhNRk0cswf7YKS9ywnkz5z2zr8GlJ8y9AlqF5wKWLMQnGrerJkxEX21KfzBF9jcNXhN7ozBr7ma9RlpQ==",
++      "path": "system.collections.nongeneric/4.3.0",
++      "hashPath": "system.collections.nongeneric.4.3.0.nupkg.sha512"
++    },
++    "System.Collections.Specialized/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-ugFAdkKulH+HDJRReaybAhmI1KyCVQD5MbOOCF65/aC0dIPLs6M+44NSlZYaSowKpwdf1lQOHjPFNj5UfR34zA==",
++      "path": "system.collections.specialized/4.3.0",
++      "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
++    },
++    "System.ComponentModel/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-d5UTRbWqvrnhomB7G/m5Yo9QTBg3+4B5uT/UeszMGh/le6sLdeEusWjuzqkCyF4dWxw3IlrpgpJzjvMb5vZFoQ==",
++      "path": "system.componentmodel/4.3.0",
++      "hashPath": "system.componentmodel.4.3.0.nupkg.sha512"
++    },
++    "System.ComponentModel.EventBasedAsync/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-fCFl8f0XdwA/BuoNrVBB5D0Y48/hv2J+w4xSDdXQitXZsR6UCSOrDVE7TCUraY802ENwcHUnUCv4En8CupDU1g==",
++      "path": "system.componentmodel.eventbasedasync/4.3.0",
++      "hashPath": "system.componentmodel.eventbasedasync.4.3.0.nupkg.sha512"
++    },
++    "System.ComponentModel.Primitives/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-SN38eE+kbO4IROx+tF9igQHkGeQ9a8JfGnBsgfcPEcEyqGw320DgRhE6UmOWp20WXAzS0oB489c+pnmyFNitFQ==",
++      "path": "system.componentmodel.primitives/4.3.0",
++      "hashPath": "system.componentmodel.primitives.4.3.0.nupkg.sha512"
++    },
++    "System.ComponentModel.TypeConverter/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-HcjE3bsecYcQ7ejGWtg/jqQ6K1uSY5Rokxi2Ev99NOh27kvkQ0PKOp5s5mB5FNOUIKVT3a5huwBjnesjyUHUTA==",
++      "path": "system.componentmodel.typeconverter/4.3.0",
++      "hashPath": "system.componentmodel.typeconverter.4.3.0.nupkg.sha512"
++    },
++    "System.Diagnostics.Debug/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-koA52ObzkE/BXHVl6rjyID+Z93I2ZnUWkZh6sEhV+4MnZ3fnHf6XAuCCokwAtAewkjZyI5qnopuDH+bSWzU04g==",
++      "path": "system.diagnostics.debug/4.3.0",
++      "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
++    },
++    "System.Diagnostics.Process/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-J0wOX07+QASQblsfxmIMFc9Iq7KTXYL3zs2G/Xc704Ylv3NpuVdo6gij6V3PGiptTxqsK0K7CdXenRvKUnkA2g==",
++      "path": "system.diagnostics.process/4.3.0",
++      "hashPath": "system.diagnostics.process.4.3.0.nupkg.sha512"
++    },
++    "System.Diagnostics.TextWriterTraceListener/4.0.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-oRsXCz76GDDMrwjMjH6keR9erFIofhGaIMc2d4NykI4rdBEuUP5ZswYA30LGPdyCK7DV4bMBEJL3nJFyAJoS/g==",
++      "path": "system.diagnostics.textwritertracelistener/4.0.0",
++      "hashPath": "system.diagnostics.textwritertracelistener.4.0.0.nupkg.sha512"
++    },
++    "System.Diagnostics.Tools/4.0.1": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-fzunMHdvTj5QM+zZuR0yufJNhkjOrJ3obPZqo+UXLWABzizbW8xOzdcVCY614o+AL+T1g9d1K2A30ns1zZsBmA==",
++      "path": "system.diagnostics.tools/4.0.1",
++      "hashPath": "system.diagnostics.tools.4.0.1.nupkg.sha512"
++    },
++    "System.Diagnostics.TraceSource/4.0.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-q5bGzzvXVi+dIMiPWRhXZV7r+Os3TEOuRW5LHsAUDGpqJHol8XiLokVpsgAfPqHHNkyx1bbv5lRZqRkRrGZKxQ==",
++      "path": "system.diagnostics.tracesource/4.0.0",
++      "hashPath": "system.diagnostics.tracesource.4.0.0.nupkg.sha512"
++    },
++    "System.Diagnostics.Tracing/4.1.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-XOaot0EGnV10eNJoFEsORRV/5igkabaTh9NkFw9tAoVv8CbsJCHcJFCqtLMA0vqy2Mu/4mLfHpyrHE+ZJzbZNg==",
++      "path": "system.diagnostics.tracing/4.1.0",
++      "hashPath": "system.diagnostics.tracing.4.1.0.nupkg.sha512"
++    },
++    "System.Dynamic.Runtime/4.0.11": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-mDsarke6JQzqcPFefrhux1uB/TFMugvF3nntrfLBb/XfvU2vkemrbOyUxY0503DHBmDSmBDSrBzoVpyvfL4zMg==",
++      "path": "system.dynamic.runtime/4.0.11",
++      "hashPath": "system.dynamic.runtime.4.0.11.nupkg.sha512"
++    },
++    "System.Globalization/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-O7MpHOrMysKMeR+cq1p74YcUGwdtIKmqceDO3zKprW/9mnhM991yXr80pFXFFQxungqOxgE0Ex0Gwx4gmGaakQ==",
++      "path": "system.globalization/4.3.0",
++      "hashPath": "system.globalization.4.3.0.nupkg.sha512"
++    },
++    "System.Globalization.Extensions/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-pbxSXImN/3CCsN0ugWfv4JoKxxHgiegRipyMlfimuup9xog81btCw9SS6KJLxyiL4JiEJUyfasTQp26/4dtmLQ==",
++      "path": "system.globalization.extensions/4.3.0",
++      "hashPath": "system.globalization.extensions.4.3.0.nupkg.sha512"
++    },
++    "System.IO/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-gH+4HiwxkU7zx3q3xlx3+YItm7GUbBuAKJqHdidL5Ccek6PMol8d3Ujh+MvYmKS/5/br01FSU7+gu8xl/7Uc5A==",
++      "path": "system.io/4.3.0",
++      "hashPath": "system.io.4.3.0.nupkg.sha512"
++    },
++    "System.IO.FileSystem/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-IwI8QepRBSpIVf01t0+CoaSN5MAc51X70AoAIAes3+HgKhY8lJJYPE5cNSsnRBvxXQ+9VIgBsA16BpHYR6yYgg==",
++      "path": "system.io.filesystem/4.3.0",
++      "hashPath": "system.io.filesystem.4.3.0.nupkg.sha512"
++    },
++    "System.IO.FileSystem.Primitives/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-RLU284q9HuzRFmWA0yYBZTcWKKJ0p5XGBnNsqOLACtI81ygB9ELuB1zyFPk9IdJw/FphJfex1Y0dMvl8OVytXQ==",
++      "path": "system.io.filesystem.primitives/4.3.0",
++      "hashPath": "system.io.filesystem.primitives.4.3.0.nupkg.sha512"
++    },
++    "System.Linq/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-69ZJLSwMKVr/QTT7t+2oNaii2Xs2y95aGOqXm48AI1n7gPO43EWKlN3SYCWDmbz4+8tBXwYXv2cDs0PNumyz7w==",
++      "path": "system.linq/4.3.0",
++      "hashPath": "system.linq.4.3.0.nupkg.sha512"
++    },
++    "System.Linq.Expressions/4.1.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-2+v/EPgrwwVct+9K2NsLAfm7uUDOJZ/6c44dJDRQtCFhCeyMqJOved4HLVvKcvpOy6AmhA/j0+E7moapHq2grQ==",
++      "path": "system.linq.expressions/4.1.0",
++      "hashPath": "system.linq.expressions.4.1.0.nupkg.sha512"
++    },
++    "System.ObjectModel/4.0.12": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-4/8fObSMSVL2GAgl1jYUn5ovU4u0cAHuhcyPmSgX3ywcPNvHElliwwq0YEHkdIkAiEsofLO8wluIkDgNI7TnWA==",
++      "path": "system.objectmodel/4.0.12",
++      "hashPath": "system.objectmodel.4.0.12.nupkg.sha512"
++    },
++    "System.Private.DataContractSerialization/4.1.1": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
++      "path": "system.private.datacontractserialization/4.1.1",
++      "hashPath": "system.private.datacontractserialization.4.1.1.nupkg.sha512"
++    },
++    "System.Reflection/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-Q1TUk/dON2h4iT68EhOkHULEQJL+QcDGFBfhf+kgE8IsW5/6pGx9s4G+YzwyEZEW8ps5h/Meb62nCY3wxyIi9g==",
++      "path": "system.reflection/4.3.0",
++      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
++    },
++    "System.Reflection.Emit/4.0.1": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-/qkTl865wZh2+512jnvOIJujHqfbqDGNDHWjfNJesnqLuWChKeuhtV8FY/QYIJIObHFft93D/0cTOwLngFsY6A==",
++      "path": "system.reflection.emit/4.0.1",
++      "hashPath": "system.reflection.emit.4.0.1.nupkg.sha512"
++    },
++    "System.Reflection.Emit.ILGeneration/4.0.1": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-g+oRSc224C0ETnDZ4xnaKyKT3Xea8YFdY+VCATzjbbxk4EOnTrjdxyq6Jph9kD4Z9tss8G/Q1cELKYV8IbEXTQ==",
++      "path": "system.reflection.emit.ilgeneration/4.0.1",
++      "hashPath": "system.reflection.emit.ilgeneration.4.0.1.nupkg.sha512"
++    },
++    "System.Reflection.Emit.Lightweight/4.0.1": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-1c70LZZCW60VLa34CRY4Jf+bqKBtM03WBFUESPtXyd4WrHZZp09R4IihMA7CEgVqNb/jsdVTnjn2bcRBFzUjGQ==",
++      "path": "system.reflection.emit.lightweight/4.0.1",
++      "hashPath": "system.reflection.emit.lightweight.4.0.1.nupkg.sha512"
++    },
++    "System.Reflection.Extensions/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-UXobVEfSIN7PpJb3XgB8l5500DH3vcXSCcLK722ZLZw6vX84MxdJz66uZeX4kuHxbbVTC+mXlSxG18ADwxEK2A==",
++      "path": "system.reflection.extensions/4.3.0",
++      "hashPath": "system.reflection.extensions.4.3.0.nupkg.sha512"
++    },
++    "System.Reflection.Metadata/1.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-+9HqYxjEZ9PBArUexvE1jos1b3bM8CVGyejg7qWPxb4sDxN47pZD2EdAmQ4ZNUij+acFsJDV6X20PjoeTH/18Q==",
++      "path": "system.reflection.metadata/1.3.0",
++      "hashPath": "system.reflection.metadata.1.3.0.nupkg.sha512"
++    },
++    "System.Reflection.Primitives/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-/ZB9XrXk1aBR9xinx0tmJqynAZI5TqF2Ua3W7huwJH+cZOj+G49PmetobfX+weaZEfFB1UG66/3cLYrtpyTsPA==",
++      "path": "system.reflection.primitives/4.3.0",
++      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
++    },
++    "System.Reflection.TypeExtensions/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-pI83XNRC46Qb/rjvYjqQO5XRtPjzfMPpO+FbdsuzHJo530L7iJGJ3VOtdXI3lja/5lqsM2nDSuHlQtFnUehXoA==",
++      "path": "system.reflection.typeextensions/4.3.0",
++      "hashPath": "system.reflection.typeextensions.4.3.0.nupkg.sha512"
++    },
++    "System.Resources.ResourceManager/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-62RkBF4mbsneK+rufVMKZkHuw2AaG+uCAQHCJBi7Pl8gcLqsKx4ltHWpnV9nVw6P3zntkKroEjj9kKW3YS8i1A==",
++      "path": "system.resources.resourcemanager/4.3.0",
++      "hashPath": "system.resources.resourcemanager.4.3.0.nupkg.sha512"
++    },
++    "System.Runtime/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-an731qipjNmeRuJpOWyGmGhYRCNuVLOdfpSW7p+XUK3TsaKLNGUlHBFKLRdLSEC/gWp9ES9R6PBbKMBHDlfZEw==",
++      "path": "system.runtime/4.3.0",
++      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
++    },
++    "System.Runtime.Extensions/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-9qG1iyqwKPIUv6NnYmM6Lrnc5qLTIQy7QwG+W8ZZ6qgEpDqcozUCBr9oJCBrZZRdqrZSH+jCAa02hYIIJrU3jw==",
++      "path": "system.runtime.extensions/4.3.0",
++      "hashPath": "system.runtime.extensions.4.3.0.nupkg.sha512"
++    },
++    "System.Runtime.Handles/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-6w6wrMSzgfmRlgywDn3BQJGURzv/KV9JR3wh8N1dGid50ZQeJ1FgTF+TpC9dp8FJvUGc0yO2dwJ39HZbBXZ/yw==",
++      "path": "system.runtime.handles/4.3.0",
++      "hashPath": "system.runtime.handles.4.3.0.nupkg.sha512"
++    },
++    "System.Runtime.InteropServices/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-xZWmBwBSm8U1VZpyvKjxyu3tgX0CjTwleLGaloprITqo6z2OTH0kPPS7SZJlpP5B6WXP/Y16I9iIXXMo75xfLQ==",
++      "path": "system.runtime.interopservices/4.3.0",
++      "hashPath": "system.runtime.interopservices.4.3.0.nupkg.sha512"
++    },
++    "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-0bpYp56KljjlKAxKzT6EiL/VurRmVDrqZwUS2hudcJupvLIeg7SLJJFV3Rw02kj7pdp9JZ5xbmixylKWjYZBKA==",
++      "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
++      "hashPath": "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512"
++    },
++    "System.Runtime.Loader/4.0.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-AGWrywLI2B15/dnLuFnlHWFjXmq1Tl0kjWaKTHbaJ8T9kIxiQ8YGTtiMQc8rUr49l2JjfZa7QY0KKqlyzA7NNg==",
++      "path": "system.runtime.loader/4.0.0",
++      "hashPath": "system.runtime.loader.4.0.0.nupkg.sha512"
++    },
++    "System.Runtime.Serialization.Json/4.0.2": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-+7DIJhnKYgCzUgcLbVTtRQb2l1M0FP549XFlFkQM5lmNiUBl44AfNbx4bz61xA8PzLtlYwfmif4JJJW7MPPnjg==",
++      "path": "system.runtime.serialization.json/4.0.2",
++      "hashPath": "system.runtime.serialization.json.4.0.2.nupkg.sha512"
++    },
++    "System.Runtime.Serialization.Primitives/4.1.1": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-Z9EvPX1pqwRQYVII1pQNwyU21pufZ4QpB5P7f1LZDAngF0XZ+7/4ERWKXfEZmnK6KQHVsU+swQ4+MdT7bAmJgQ==",
++      "path": "system.runtime.serialization.primitives/4.1.1",
++      "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
++    },
++    "System.Text.Encoding/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-D9FbO2Kyisf6SNgBAppx0AaEelzP4Zn0qxmJpa3Y4JCH8kmMNqNi8ArNqV+qHGabu4VT7LynxMddCZnNxy9khg==",
++      "path": "system.text.encoding/4.3.0",
++      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
++    },
++    "System.Text.Encoding.Extensions/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-rN4w9Fk1I6mDOOWtlLt9t6RvV4jeoZLut2iVZaC0zmdTFR74SVIk9/5DnN3yaqEZ2ddKIOz1a4FplWw9LvQi3A==",
++      "path": "system.text.encoding.extensions/4.3.0",
++      "hashPath": "system.text.encoding.extensions.4.3.0.nupkg.sha512"
++    },
++    "System.Text.RegularExpressions/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-tJ67NN8E3EMun5EBoI25n7Z+Kx0juW5VGJhtsEyBepwaNkNyroUew7BBQsA1ZZ4qDWeG99EhisTEmUoa7rAlfQ==",
++      "path": "system.text.regularexpressions/4.3.0",
++      "hashPath": "system.text.regularexpressions.4.3.0.nupkg.sha512"
++    },
++    "System.Threading/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-0mdSzxVFjfrpTSBPmr2EHg2idQJYNXL8IdFxC9H98/K4X2EqybgzFM9eGP2yR46f3w8F5dxu37FYo3SdSemiaQ==",
++      "path": "system.threading/4.3.0",
++      "hashPath": "system.threading.4.3.0.nupkg.sha512"
++    },
++    "System.Threading.Tasks/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-vQjMi3zJZDohp4wLPjDDBI/9VPxklE0cQhrRp9MNda2j/C9vG4R4b3bsOwCKSCy1qVq120i6Cipu3K12pFAMXQ==",
++      "path": "system.threading.tasks/4.3.0",
++      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
++    },
++    "System.Threading.Tasks.Extensions/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-Vkn2bwePHY4gpyx0Nlu7DIsKMWOJsnUilov/KvFf/7tec3l53gHflBXtALbTtZJvFGnNcIJDsqmH8R4FfPqyQA==",
++      "path": "system.threading.tasks.extensions/4.3.0",
++      "hashPath": "system.threading.tasks.extensions.4.3.0.nupkg.sha512"
++    },
++    "System.Threading.Thread/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-aC6kSPSajSD/N4WhPCv+DfFMoNB/3D8F7dJiMCXp2einoTrRk+JevclbHuw8JJD2r0m3wagTqVrufwVteVZ9eQ==",
++      "path": "system.threading.thread/4.3.0",
++      "hashPath": "system.threading.thread.4.3.0.nupkg.sha512"
++    },
++    "System.Threading.ThreadPool/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-7HvtMUAXMFc2zk5GKxGgPQ5m3/noSOWAMjkDAVRRAUJYSWYyRBRT8fEkNN7Q4PY/39ZOsicbEUkOtoavyVCupQ==",
++      "path": "system.threading.threadpool/4.3.0",
++      "hashPath": "system.threading.threadpool.4.3.0.nupkg.sha512"
++    },
++    "System.Xml.ReaderWriter/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-W+lJTxxjkRNfRL7N/NbEStmjXGGMi9w+pTMRA4LcAbkdXwnRwK1nBBqBwUqceVcNTAbFLqHPvjGcMUN8XbpDbg==",
++      "path": "system.xml.readerwriter/4.3.0",
++      "hashPath": "system.xml.readerwriter.4.3.0.nupkg.sha512"
++    },
++    "System.Xml.XDocument/4.0.11": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-hYuhcCNtZdfWBqWuLExalhbpZZr6JQculxqElUFYw7XtXc01k5KqLrpbcGr8d4AgoRH4mBr5dhIUZ3ELL/EsnA==",
++      "path": "system.xml.xdocument/4.0.11",
++      "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
++    },
++    "System.Xml.XmlDocument/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
++      "path": "system.xml.xmldocument/4.3.0",
++      "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
++    },
++    "System.Xml.XmlSerializer/4.0.11": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-FrazwwqfIXTfq23mfv4zH+BjqkSFNaNFBtjzu3I9NRmG8EELYyrv/fJnttCIwRMFRR/YKXF1hmsMmMEnl55HGw==",
++      "path": "system.xml.xmlserializer/4.0.11",
++      "hashPath": "system.xml.xmlserializer.4.0.11.nupkg.sha512"
++    },
++    "System.Xml.XPath/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-v1JQ5SETnQusqmS3RwStF7vwQ3L02imIzl++sewmt23VGygix04pEH+FCj1yWb+z4GDzKiljr1W7Wfvrx0YwgA==",
++      "path": "system.xml.xpath/4.3.0",
++      "hashPath": "system.xml.xpath.4.3.0.nupkg.sha512"
++    },
++    "System.Xml.XPath.XmlDocument/4.3.0": {
++      "type": "package",
++      "serviceable": true,
++      "sha512": "sha512-91tvfHWHSrYFPolCwWYqbpo1YaoBUCQ3uNZ/O/zr0ev5BnkoATJoie16ywlMVUaXZtfSfNELxhtG3aqpTfwR4w==",
++      "path": "system.xml.xpath.xmldocument/4.3.0",
++      "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
++    },
++    "BasicCoding/1.0.0": {
++      "type": "project",
++      "serviceable": false,
++      "sha512": ""
++    }
++  }
++}
+\ No newline at end of file
+Index: Tests/bin/Debug/netcoreapp3.0/Tests.runtimeconfig.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Tests/bin/Debug/netcoreapp3.0/Tests.runtimeconfig.json	(date 1570821443997)
++++ Tests/bin/Debug/netcoreapp3.0/Tests.runtimeconfig.json	(date 1570821443997)
+@@ -1,0 +1,9 @@
++{
++  "runtimeOptions": {
++    "tfm": "netcoreapp3.0",
++    "framework": {
++      "name": "Microsoft.NETCore.App",
++      "version": "3.0.0"
++    }
++  }
++}
+\ No newline at end of file
+Index: Tests/bin/Debug/netcoreapp3.0/Tests.runtimeconfig.dev.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Tests/bin/Debug/netcoreapp3.0/Tests.runtimeconfig.dev.json	(date 1570821443998)
++++ Tests/bin/Debug/netcoreapp3.0/Tests.runtimeconfig.dev.json	(date 1570821443998)
+@@ -1,0 +1,9 @@
++{
++  "runtimeOptions": {
++    "additionalProbingPaths": [
++      "/Users/aibekshulembekov/.dotnet/store/|arch|/|tfm|",
++      "/Users/aibekshulembekov/.nuget/packages",
++      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
++    ]
++  }
++}
+\ No newline at end of file
+Index: Tests/obj/Debug/netcoreapp3.0/Tests.csproj.FileListAbsolute.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Tests/obj/Debug/netcoreapp3.0/Tests.csproj.FileListAbsolute.txt	(date 1570821444013)
++++ Tests/obj/Debug/netcoreapp3.0/Tests.csproj.FileListAbsolute.txt	(date 1570821444013)
+@@ -1,0 +1,190 @@
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/NUnit3.TestAdapter.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/NUnit3.TestAdapter.pdb
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/nunit.engine.netstandard.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Tests.deps.json
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Tests.runtimeconfig.json
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Tests.runtimeconfig.dev.json
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Tests.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Tests.pdb
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Microsoft.DotNet.InternalAbstractions.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.CoreUtilities.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.PlatformAbstractions.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.CommunicationUtilities.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.CrossPlatEngine.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.Utilities.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.TestPlatform.Common.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/testhost.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/nunit.framework.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/System.Xml.XPath.XmlDocument.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/obj/Debug/netcoreapp3.0/Tests.csprojAssemblyReference.cache
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/obj/Debug/netcoreapp3.0/Tests.AssemblyInfoInputs.cache
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/obj/Debug/netcoreapp3.0/Tests.AssemblyInfo.cs
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/obj/Debug/netcoreapp3.0/Tests.csproj.CopyComplete
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/obj/Debug/netcoreapp3.0/Tests.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/obj/Debug/netcoreapp3.0/Tests.pdb
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/BasicCoding
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/BasicCoding.dll
++/Users/aibekshulembekov/RiderProjects/Basic Coding/Tests/bin/Debug/netcoreapp3.0/BasicCoding.pdb
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/BasicCoding
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/NUnit3.TestAdapter.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/NUnit3.TestAdapter.pdb
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/nunit.engine.netstandard.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Tests.deps.json
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Tests.runtimeconfig.json
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Tests.runtimeconfig.dev.json
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Tests.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Tests.pdb
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Microsoft.DotNet.InternalAbstractions.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.CoreUtilities.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.PlatformAbstractions.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.CommunicationUtilities.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.CrossPlatEngine.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Microsoft.TestPlatform.Utilities.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Microsoft.VisualStudio.TestPlatform.Common.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/testhost.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/nunit.framework.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/System.Xml.XPath.XmlDocument.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/es/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/it/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/BasicCoding.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/bin/Debug/netcoreapp3.0/BasicCoding.pdb
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/obj/Debug/netcoreapp3.0/Tests.csprojAssemblyReference.cache
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/obj/Debug/netcoreapp3.0/Tests.AssemblyInfoInputs.cache
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/obj/Debug/netcoreapp3.0/Tests.AssemblyInfo.cs
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/obj/Debug/netcoreapp3.0/Tests.csproj.CopyComplete
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/obj/Debug/netcoreapp3.0/Tests.dll
++/Users/aibekshulembekov/RiderProjects/dotNET Basics/Tests/obj/Debug/netcoreapp3.0/Tests.pdb
+Index: Tests/BasicCoding.cs
+===================================================================
+--- Tests/BasicCoding.cs	(date 0)
++++ Tests/BasicCoding.cs	(date 0)
+@@ -1,68 +0,0 @@
+-using System;
+-using Microsoft.VisualStudio.TestPlatform.TestHost;
+-using BasicCoding;
+-using NUnit.Framework;
+-
+-namespace Tests
+-{
+-    public class BasicCoding
+-    {
+-        [SetUp]
+-        public void Setup()
+-        {
+-        }
+-
+-        [Test]
+-        public void Test_InsertNumber()
+-        {
+-            //arrange
+-            var sourceNum = 255;
+-            var inNum = 200;
+-            var i = 6;
+-            var j = 3;
+-            //act
+-            var result = Tasks.InsertNumber(sourceNum, inNum, j, i);
+-
+-            Assert.AreEqual(result, 248);
+-        }
+-
+-        [Test]
+-        public void Test_FindByEqualSum()
+-        {
+-            float[] arr = {22.3f, 44, 41, 35.2f, 31.1f};
+-
+-            var res = Tasks.FindByEqualSum(arr);
+-            
+-            Assert.AreEqual(res,2);
+-        }
+-        
+-        [Test]
+-        public void Test_Concat()
+-        {
+-            string first = "Hello", second = "Worldd";
+-
+-            var res = Tasks.Concat(first,second);
+-            
+-            Assert.AreEqual(res,"HeloWorld");
+-        }
+-
+-        [TestCase(12,21)]
+-        [TestCase(513,531)]
+-        [TestCase(2017,2071)]
+-        [TestCase(414,441)]
+-        [TestCase(144,414)]
+-        [TestCase(1234321,1241233)]
+-        [TestCase(1234126,1234162)]
+-        [TestCase(3456432,3462345)]
+-        [TestCase(10, -1)]
+-        [TestCase(20, -1)]
+-        public void Test_FindNextBiggerNumber(int number, int expected)
+-        {
+-            var result = Tasks.FindNextBiggerNumber(number);
+-            Console.Write($"Time elapsed: {result.Item2.Elapsed}");
+-            Assert.AreEqual(result.Item1,expected);
+-        }
+-        
+-        
+-    }
+-}
+\ No newline at end of file
+Index: Tests/Tests.csproj
+===================================================================
+--- Tests/Tests.csproj	(date 0)
++++ Tests/Tests.csproj	(date 0)
+@@ -1,19 +0,0 @@
+-<Project Sdk="Microsoft.NET.Sdk">
+-
+-    <PropertyGroup>
+-        <TargetFramework>netcoreapp3.0</TargetFramework>
+-
+-        <IsPackable>false</IsPackable>
+-    </PropertyGroup>
+-
+-    <ItemGroup>
+-        <PackageReference Include="nunit" Version="3.12.0" />
+-        <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
+-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+-    </ItemGroup>
+-
+-    <ItemGroup>
+-      <ProjectReference Include="..\BasicCoding\BasicCoding.csproj" />
+-    </ItemGroup>
+-
+-</Project>
+Index: BasicCoding/BasicCoding.csproj
+===================================================================
+--- BasicCoding/BasicCoding.csproj	(date 0)
++++ BasicCoding/BasicCoding.csproj	(date 0)
+@@ -1,9 +0,0 @@
+-<Project Sdk="Microsoft.NET.Sdk">
+-
+-    <PropertyGroup>
+-        <OutputType>Exe</OutputType>
+-        <TargetFramework>netcoreapp3.0</TargetFramework>
+-        <RootNamespace>Task1</RootNamespace>
+-    </PropertyGroup>
+-
+-</Project>
+Index: BasicCoding/Tasks.cs
+===================================================================
+--- BasicCoding/Tasks.cs	(date 0)
++++ BasicCoding/Tasks.cs	(date 0)
+@@ -1,167 +0,0 @@
+-using System;
+-using System.Collections.Generic;
+-using System.Diagnostics;
+-using System.Linq;
+-using Microsoft.VisualBasic;
+-
+-namespace BasicCoding
+-{
+-    public class Tasks
+-    {
+-        static void Main(string[] args)
+-        {
+-            int[] arr = new[] {4, 5, 22, 12, 3, 34, 56, 99};
+-            Console.WriteLine("Массив:");
+-            arr.ToList().ForEach(x => Console.Write($"{x} "));
+-            Console.WriteLine($"\nМаксимальный элемент массива: {Max(arr, arr.Length)}");
+-        }
+-        
+-        /// <summary>
+-        ///  Метод вставляет биты первого числа с j по i в биты второго числа с j по i.
+-        /// С помощью методов класса Convert конвертируем число в двоичное значение в виде строки,
+-        /// а затем в массив, затем переворачиваем его так как, в двоичном исчислении нумерация начинается справа,
+-        /// Затем обратно в массив, чтобы можно было с ним работать.
+-        /// Далее следует цикл, который соотвественно меняет биты.
+-        /// </summary>
+-        /// <param name="numberSource"></param>
+-        /// <param name="numberIn"></param>
+-        /// <param name="j"></param>
+-        /// <param name="i"></param>
+-        /// <returns> конвертируем массив символов перевернутый, преобразованный в строку, в качестве системы измерения задаем двоичную </returns>
+-        public static int InsertNumber(int numberSource, int numberIn, int j, int i)
+-        {
+-            var sourceString = Convert.ToString(numberSource, 2)
+-                .ToCharArray().Reverse().ToArray();
+-            var inString = Convert.ToString(numberIn, 2)
+-                .ToCharArray().Reverse().ToArray();
+-            for (int k = j; k <= i; k++)
+-            {
+-                inString[k] = sourceString[k];
+-            }
+-
+-            return Convert.ToInt32(new string(inString.Reverse().ToArray()), 2);
+-        }
+-
+-        /// <summary>
+-        /// Если индекс равен 1, то возращаем первый элемент массива.
+-        /// Затем рекурсивно вызываем функцию и передаем туда индекс на один меньше.
+-        /// Сравниваем на большое значение элемент который мы получили из рекурсивного вызова и и текущий элемент.
+-        /// </summary>
+-        /// <param name="arr">Массив чисел</param>
+-        /// <param name="n">Индекс</param>
+-        /// <returns>Возращает максимальное значение</returns>
+-        public static int Max(int[] arr, int n)
+-        {
+-            if (n is 1)
+-                return arr[0];
+-            var max = Max(arr, n - 1);
+-            return arr[n - 1] > max ? arr[n - 1] : max;
+-        }
+-        
+-        /// <summary>
+-        /// Проходимся по массиву с помощью foreach, для каждого значения 
+-        /// получаем индекс с помощью LINQ функции IndexOf, пред этим конвертируем
+-        /// массив в лист.
+-        /// Считаем сумму до и после индекса, выбирая элементы с помощью LINQ функции Where
+-        /// Сравниваем суммы.
+-        /// </summary>
+-        /// <param name="arr">Массив вещественных чисел</param>
+-        /// <returns>Возращает целое число, индекс массива, если такого числа нет возвращает -1.</returns>
+-        public static int FindByEqualSum(float[] arr)
+-        {
+-            foreach (var i in arr)
+-            {
+-                var indexOfCur = arr.ToList().IndexOf(i);
+-                var sumBefore = arr.Where(x => arr.ToList().IndexOf(x) < indexOfCur).Sum();
+-                var sumAfter = arr.Where(x => arr.ToList().IndexOf(x) > indexOfCur).Sum();
+-                if (sumBefore == sumAfter)
+-                    return indexOfCur;
+-            }
+-
+-            return -1;
+-        }
+-
+-        /// <summary>
+-        /// Проверяем строки на содержание только латинских букв.
+-        /// Анонимно создаем новую строку из строки у которой с помощью функции Distinct
+-        /// удаляем повторяющиеся элементы.
+-        /// С помощью перегурженного оператора + складываем строки 
+-        /// </summary>
+-        /// <param name="first">Первая строка</param>
+-        /// <param name="second"Вторая строка</param>
+-        /// <returns></returns>
+-        public static string Concat(string first, string second)
+-        {
+-            if(!(CheckerAZ(first) && CheckerAZ(second))) throw new ArgumentException("String contains non alphabetical characters!");
+-            return new string(first.Distinct().ToArray())
+-                + new string(second.Distinct().ToArray());
+-        }
+-        /// <summary>
+-        /// Функция которая проверяет содержит ли строка
+-        /// только латинские букву в противном случае возвращает false.
+-        /// </summary>
+-        /// <param name="str">проверяемая строка</param>
+-        /// <returns></returns>
+-        private static bool CheckerAZ(string str)
+-        {
+-            foreach (var i in str)
+-            {
+-                var c = Char.ToLower(i);
+-                if (!(c >= 'a' && c <= 'z'))
+-                    return false;
+-            }
+-
+-            return true;
+-        }
+-
+-        public static (int,Stopwatch) FindNextBiggerNumber(int num)
+-        {
+-            var s = new Stopwatch();
+-            s.Start();
+-            var digits = IntToDigits(num);
+-            var j = digits.Length - 2;
+-            while (j != -1 && digits[j] >= digits[j + 1]) j--;
+-            if (j == -1)
+-                return (-1,s); 
+-            var k = digits.Length - 1;
+-            while (digits[j] >= digits[k]) k--;
+-            Swap(ref digits, j, k);
+-            int l = j + 1, r = digits.Length - 1; 
+-            while (l<r) 
+-                Swap(ref digits, l++, r--);
+-            s.Start();
+-            return (DigitsToInt(digits),s);
+-        }
+-
+-        private static int[] IntToDigits(int num)
+-        {
+-            var digits = new List<int>();
+-            foreach (var c in num.ToString().ToArray())
+-            {
+-                Int32.TryParse(c.ToString(), out int value);
+-                digits.Add(value);
+-            }
+-
+-            return digits.ToArray();
+-        }
+-
+-        private static int DigitsToInt(int[] arr)
+-        {
+-            int value = 0;
+-            for (int i = 0; i < arr.Length; ++i)
+-            {
+-                value *= 10;
+-                value += arr[i];
+-            }
+-
+-            return value;
+-        }
+-
+-        private static void Swap<T>(ref T[] arr, int i, int j)
+-        {
+-            T c = arr[i];
+-            arr[i] = arr[j];
+-            arr[j] = c;
+-        }
+-    }
+-}
+Index: dotNET Basics.sln
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- dotNET Basics.sln	(date 1570821921690)
++++ dotNET Basics.sln	(date 1570821921690)
+@@ -1,4 +1,4 @@
+-
++﻿
+ Microsoft Visual Studio Solution File, Format Version 12.00
+ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction and .NET Basics", "Introduction and .NET Basics", "{F329FEAB-7ED1-44A2-8B74-3FAC5531449E}"
+ EndProject
