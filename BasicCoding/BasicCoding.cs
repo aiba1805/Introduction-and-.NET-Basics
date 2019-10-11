@@ -15,7 +15,7 @@ namespace BasicCoding
             arr.ToList().ForEach(x => Console.Write($"{x} "));
             Console.WriteLine($"\nМаксимальный элемент массива: {Max(arr, arr.Length)}");
         }
-
+        
         /// <summary>
         ///  Метод вставляет биты первого числа с j по i в биты второго числа с j по i.
         /// С помощью методов класса Convert конвертируем число в двоичное значение в виде строки,
@@ -54,8 +54,8 @@ namespace BasicCoding
         {
             if (n is 1)
                 return arr[0];
-            var max = Max(arr, n - 1);
-            return arr[n - 1] > max ? arr[n - 1] : max;
+            var max = Max(arr, n-1);
+            return arr[n-1] > max ? arr[n-1] : max;
         }
         
         /// <summary>
@@ -66,7 +66,7 @@ namespace BasicCoding
         /// Сравниваем суммы.
         /// </summary>
         /// <param name="arr">Массив вещественных чисел</param>
-        /// <returns>Возращает целое число, индекс массива, если такого числа нет возвращает -1.</returns>
+        /// <returns>Возращает целое число, индекс массива, если такого числа нет возвращает 1.</returns>
         public static int FindByEqualSum(float[] arr)
         {
             foreach (var i in arr)
@@ -78,7 +78,7 @@ namespace BasicCoding
                     return indexOfCur;
             }
 
-            return -1;
+            return 1;
         }
 
         /// <summary>
@@ -116,18 +116,22 @@ namespace BasicCoding
 
         public static (int,Stopwatch) FindNextBiggerNumber(int num)
         {
-            var s = new Stopwatch();
-            s.Start();
-            var digits = IntToDigits(num);
+            var s = new Stopwatch(); // Инициализируем таймер
+            s.Start(); // Запускаем
+            var digits = IntToDigits(num); // Функция разделения числа на цифры
+             // Отнимаем от длины массива цифр 2,
+             // так как число должно быть хотя бы двухзначным
             var j = digits.Length - 2;
-            while (j != -1 && digits[j] >= digits[j + 1]) j--;
-            if (j == -1)
+             // Проверяем если даже число двухзначное,
+             // но текущая цифра больше либо равна следующей
+            while (j != -1 && digits[j] >= digits[j + 1]) --j;
+            if (j == -1) // если текущий индекс числа -1 то возвращаем что -1 
                 return (-1,s); 
-            var k = digits.Length - 1;
-            while (digits[j] >= digits[k]) k--;
-            Swap(ref digits, j, k);
-            int l = j + 1, r = digits.Length - 1; 
-            while (l<r) 
+            var k = digits.Length - 1; // индекс последней цифры
+            while (digits[j] >= digits[k]) --k; // если текущая цифра больше последней, проходимся справа налево
+            Swap(ref digits, j, k); // Меняем местами 
+            int l = j + 1, r = digits.Length -1; // l - следующая цифра после текущей, r - последняя 
+            while (l<r) // пока слева больше, менять местами
                 Swap(ref digits, l++, r--);
             s.Start();
             return (DigitsToInt(digits),s);
@@ -162,6 +166,20 @@ namespace BasicCoding
             T c = arr[i];
             arr[i] = arr[j];
             arr[j] = c;
+        }
+
+        public static int[] FilterDigit(int number, int[] arr)
+        {
+            var result = new List<int>();
+            foreach (var num in arr)
+            {
+                foreach (var digit in IntToDigits(num))
+                {
+                    if(number == digit && !result.Contains(num)) result.Add(num);
+                }
+            }
+
+            return result.ToArray();
         }
     }
 }
