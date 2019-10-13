@@ -12,24 +12,27 @@
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="BasicCoding" t="IncludeRecursive">
+      <e p="dotNET Basics.sln" t="IncludeFlat" />
+      <e p="INB" t="IncludeRecursive">
         <e p="BasicCoding.cs" t="Include" />
-        <e p="BasicCoding.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CreatingTypes.cs" t="Include" />
+        <e p="INB.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
-              <e p="BasicCoding.AssemblyInfo.cs" t="Include" />
+              <e p="INB.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
+        <e p="Program.cs" t="Include" />
       </e>
-      <e p="dotNET Basics.sln" t="IncludeFlat" />
       <e p="Introduction and .NET Basics" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Tests" t="IncludeRecursive">
         <e p="BasicCodingTest.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CreatingTypesTest.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">

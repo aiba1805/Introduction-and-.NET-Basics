@@ -4,18 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using Microsoft.VisualBasic;
 
-namespace BasicCoding
+namespace INB
 {
-    public class Tasks
+    public class BasicCoding
     {
-        static void Main(string[] args)
-        {
-            int[] arr = new[] {4, 5, 22, 12, 3, 34, 56, 99};
-            Console.WriteLine("Массив:");
-            arr.ToList().ForEach(x => Console.Write($"{x} "));
-            Console.WriteLine($"\nМаксимальный элемент массива: {Max(arr, arr.Length)}");
-        }
-        
         /// <summary>
         ///  Метод вставляет биты первого числа с j по i в биты второго числа с j по i.
         /// С помощью методов класса Convert конвертируем число в двоичное значение в виде строки,
