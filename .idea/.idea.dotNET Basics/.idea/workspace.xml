@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5e4d551-94ee-4db5-9333-c0156abe3e07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CreatingTypes/CTTasks.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreatingTypes/CreatingTypes.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INB/CreatingTypes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INB/INB.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INB/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/CreatingTypesTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INB/MethodDetails.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/MethodDetailsTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicCoding/BasicCoding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/INB/BasicCoding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/BasicCodingTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BasicCodingTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotNET Basics.sln" beforeDir="false" afterPath="$PROJECT_DIR$/dotNET Basics.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INB/INB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/INB/INB.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,15 +18,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/INB/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CreatingTypes/CTTasks.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/INB/MethodDetails.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/MethodDetailsTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/INB/CreatingTypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/INB/BasicCoding.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/SimpleWorkItemDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D392DB2F-B3D6-4F4F-A564-A7B744FC7801/f6/26fd07cc/MethodWrapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/BasicCodingTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/CreatingTypesTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/INB/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CreatingTypes/CTTasks.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/SimpleWorkItemDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/CompositeWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,6 +49,8 @@
         <option value="$PROJECT_DIR$/Tests/BasicCodingTest.cs" />
         <option value="$PROJECT_DIR$/INB/CreatingTypes.cs" />
         <option value="$PROJECT_DIR$/Tests/CreatingTypesTest.cs" />
+        <option value="$PROJECT_DIR$/INB/MethodDetails.cs" />
+        <option value="$PROJECT_DIR$/Tests/MethodDetailsTest.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570821308342</updated>
-      <workItem from="1570821309627" duration="13450000" />
+      <workItem from="1570821309627" duration="16784000" />
     </task>
     <task id="LOCAL-00001" summary="Added projects&#10;Done 1-5 Basic Coding tasks">
       <created>1570821531562</created>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570824825686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating Types task done">
+      <created>1570972702155</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570972702155</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +195,8 @@
     <MESSAGE value="Added projects&#10;Done 1-5 Basic Coding tasks" />
     <MESSAGE value="Basic coding tasks 1-5 done" />
     <MESSAGE value="Basic Coding done all" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Coding done all" />
+    <MESSAGE value="Creating Types task done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Types task done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -199,17 +206,17 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Tests/CreatingTypesTest.cs</url>
-          <line>30</line>
-          <properties documentPath="$PROJECT_DIR$/Tests/CreatingTypesTest.cs" initialLine="30">
+          <url>file://$PROJECT_DIR$/Tests/MethodDetailsTest.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/Tests/MethodDetailsTest.cs" initialLine="20">
             <startOffsets>
-              <option value="1089" />
+              <option value="1477" />
             </startOffsets>
             <endOffsets>
-              <option value="1135" />
+              <option value="1540" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
