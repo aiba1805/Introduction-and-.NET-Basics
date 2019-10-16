@@ -58,7 +58,7 @@ namespace INB
         /// Сравниваем суммы.
         /// </summary>
         /// <param name="arr">Массив вещественных чисел</param>
-        /// <returns>Возращает целое число, индекс массива, если такого числа нет возвращает 1.</returns>
+        /// <returns>Возращает целое число, индекс массива, если такого числа нет возвращает -1.</returns>
         public static int FindByEqualSum(float[] arr)
         {
             foreach (var i in arr)
@@ -70,7 +70,7 @@ namespace INB
                     return indexOfCur;
             }
 
-            return 1;
+            return -1;
         }
 
         /// <summary>
