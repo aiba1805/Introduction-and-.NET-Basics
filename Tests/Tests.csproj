@@ -13,6 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\BasicsOfOOP\BasicsOfOOP.csproj" />
       <ProjectReference Include="..\INB\INB.csproj" />
     </ItemGroup>
 

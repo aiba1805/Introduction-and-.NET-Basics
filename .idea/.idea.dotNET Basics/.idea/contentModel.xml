@@ -12,11 +12,37 @@
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="BasicsOfOOP" t="IncludeRecursive">
+        <e p="BasicsOfOOP.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="BasicsOfOOP.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Task1" t="Include">
+          <e p="BubbleSort.cs" t="Include" />
+        </e>
+        <e p="Task2" t="Include">
+          <e p="Circle.cs" t="Include" />
+          <e p="IShape.cs" t="Include" />
+          <e p="Rectangle.cs" t="Include" />
+          <e p="Square.cs" t="Include" />
+          <e p="Triangle.cs" t="Include" />
+        </e>
+        <e p="Task3" t="Include">
+          <e p="Polynomial.cs" t="Include" />
+        </e>
+      </e>
       <e p="dotNET Basics.sln" t="IncludeFlat" />
       <e p="INB" t="IncludeRecursive">
         <e p="BasicCoding.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CreatingTypes.cs" t="Include" />
+        <e p="GCD.cs" t="Include" />
         <e p="INB.csproj" t="IncludeRecursive" />
         <e p="MethodDetails.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
@@ -29,18 +55,43 @@
         <e p="Program.cs" t="Include" />
       </e>
       <e p="Introduction and .NET Basics" t="Include" />
+      <e p="Object oriented Programming" t="Include" />
+      <e p="OODP" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Matrix" t="Include">
+          <e p="MatrixBase.cs" t="Include" />
+          <e p="MatrixDiagonal.cs" t="Include" />
+          <e p="MatrixSquare.cs" t="Include" />
+          <e p="MatrixSymmetric.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="OODP.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OODP.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Tests" t="IncludeRecursive">
-        <e p="BasicCodingTest.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="CreatingTypesTest.cs" t="Include" />
-        <e p="MethodDetailsTest.cs" t="Include" />
+        <e p="INB" t="Include">
+          <e p="BasicCodingTest.cs" t="Include" />
+          <e p="CreatingTypesTest.cs" t="Include" />
+          <e p="MethodDetailsTest.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.0" t="Include">
               <e p="Tests.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="OOP" t="Include">
+          <e p="BubbleSortTest.cs" t="Include" />
+          <e p="PolynomialTest.cs" t="Include" />
         </e>
         <e p="Tests.csproj" t="IncludeRecursive" />
       </e>
