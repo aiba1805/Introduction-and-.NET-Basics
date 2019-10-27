@@ -14,6 +14,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\BasicsOfOOP\BasicsOfOOP.csproj" />
+      <ProjectReference Include="..\FF\FF.csproj" />
       <ProjectReference Include="..\INB\INB.csproj" />
     </ItemGroup>
 

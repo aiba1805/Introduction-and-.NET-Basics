@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5e4d551-94ee-4db5-9333-c0156abe3e07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsOfOOP/BasicsOfOOP.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsOfOOP/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsOfOOP/Task1/BubbleSort.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsOfOOP/Task2/Circle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsOfOOP/Task2/IShape.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsOfOOP/Task2/Rectangle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsOfOOP/Task2/Square.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsOfOOP/Task2/Triangle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsOfOOP/Task3/Polynomial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OODP/Matrix/MatrixBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OODP/Matrix/MatrixDiagonal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OODP/Matrix/MatrixSquare.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OODP/Matrix/MatrixSymmetric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OODP/OODP.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OODP/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/OOP/BubbleSortTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/OOP/PolynomialTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FF/FF.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FF/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FF/Task1/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FF/Task256/StringHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FF/Task3/UrlHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FF/Task4/SequenceHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/FF/FFTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/BasicCodingTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/INB/BasicCodingTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/CreatingTypesTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/INB/CreatingTypesTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/MethodDetailsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/INB/MethodDetailsTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dotNET Basics.sln" beforeDir="false" afterPath="$PROJECT_DIR$/dotNET Basics.sln" afterDir="false" />
     </list>
@@ -39,14 +25,22 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/OODP/Matrix/MatrixBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FF/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/INB/CreatingTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B9C5BD74-CC2C-4F28-BBAA-29643F0B8BE7/72/85fbe916/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/INB/BasicCodingTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OODP/Matrix/MatrixSymmetric.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/INB/CreatingTypesTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FF/Task4/SequenceHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/85/f97fa264/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task3/Polynomial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OODP/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/FF/FFTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FF/Task256/StringHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/56C1FBAA-ADF8-426A-91DB-87B46E8C8EAF/6e/15dc7c58/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FF/Task1/Customer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/INB/MethodDetails.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/INB/MethodDetailsTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/INB/BasicCoding.cs" root0="FORCE_HIGHLIGHTING" />
@@ -57,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Rectangle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/INB/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Square.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FF/Task3/UrlHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Triangle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Circle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OODP/Matrix/MatrixSquare.cs" root0="FORCE_HIGHLIGHTING" />
@@ -103,6 +98,15 @@
         <option value="$PROJECT_DIR$/OODP/Matrix/MatrixDiagonal.cs" />
         <option value="$PROJECT_DIR$/OODP/Matrix/MatrixBase.cs" />
         <option value="$PROJECT_DIR$/OODP/Program.cs" />
+        <option value="$PROJECT_DIR$/FF/Task1/Customer.cs" />
+        <option value="$PROJECT_DIR$/FF/Task4/SequenceHelper.cs" />
+        <option value="$PROJECT_DIR$/FF/Program.cs" />
+        <option value="$PROJECT_DIR$/FF/Task3/UrlHelper.cs" />
+        <option value="$PROJECT_DIR$/FF/Task2/StringConverter.cs" />
+        <option value="$PROJECT_DIR$/FF/Task5/StringReverser.cs" />
+        <option value="$PROJECT_DIR$/FF/Task5/StringHelper.cs" />
+        <option value="$PROJECT_DIR$/FF/Task256/StringHelper.cs" />
+        <option value="$PROJECT_DIR$/Tests/FF/FFTest.cs" />
       </list>
     </option>
   </component>
@@ -140,14 +144,14 @@
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/OODP/bin/Debug/netcoreapp3.0/OODP.dll" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/FF/bin/Debug/netcoreapp3.0/FF.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OODP/bin/Debug/netcoreapp3.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FF/bin/Debug/netcoreapp3.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/OODP/OODP.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/FF/FF.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -157,6 +161,9 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -170,7 +177,7 @@
       <updated>1570821308342</updated>
       <workItem from="1570821309627" duration="20799000" />
       <workItem from="1571678354643" duration="4183000" />
-      <workItem from="1571931156285" duration="8070000" />
+      <workItem from="1571931156285" duration="22007000" />
     </task>
     <task id="LOCAL-00001" summary="Added projects&#10;Done 1-5 Basic Coding tasks">
       <created>1570821531562</created>
@@ -228,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571237897589</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="OOP done">
+      <created>1572126718333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572126718334</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +282,8 @@
     <MESSAGE value="Creating Types task done" />
     <MESSAGE value="Method in Details all tasks done" />
     <MESSAGE value="Refactored FindByEqualSum method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored FindByEqualSum method" />
+    <MESSAGE value="OOP done" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
