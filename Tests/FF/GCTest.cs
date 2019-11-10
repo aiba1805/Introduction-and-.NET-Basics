@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using FF.Task8;
 using GC.Task1;
 using GC.Task2;
 using GC.Task3;
@@ -65,6 +66,13 @@ namespace Tests.FF
             }
             set.Remove(46);
             return set.Items;
+        }
+        
+        [TestCase("5 1 2 + 4 * + 3 -", ExpectedResult = 14)]
+        public int RPN_Test(string expr)
+        {
+            var res = RPN.Evaluate(expr);
+            return res;
         }
     }
 }

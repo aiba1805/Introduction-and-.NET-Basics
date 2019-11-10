@@ -62,11 +62,6 @@ namespace Tests.FF
             return res;
         }
 
-        [TestCase("5 1 2 + 4 * + 3 -", ExpectedResult = 14)]
-        public int RPN_Test(string expr)
-        {
-            var res = RPN.Evaluate(expr);
-            return res;
-        }
+        
     }
 }
