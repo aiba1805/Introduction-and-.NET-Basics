@@ -1,33 +1,37 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using FF.Task1;
 using FF.Task3;
 using FF.Task5;
+using FF.Task8;
 using NUnit.Framework;
 
 namespace Tests.FF
 {
     public class FFTest
     {
-        [TestCase("Jeffrey Richter",1000000, "+1 (425) 555-0100","N", ExpectedResult = "Jeffrey Richter")]
-        [TestCase("Jeffrey Richter",1000000, "+1 (425) 555-0100","NR", ExpectedResult = "Jeffrey Richter, 1,000,000.00")]
-        [TestCase("Jeffrey Richter",1000000, "+1 (425) 555-0100","P", ExpectedResult = "+1 (425) 555-0100")]
-        [TestCase("Jeffrey Richter",1000000, "+1 (425) 555-0100","F", ExpectedResult = "Jeffrey Richter, 1,000,000.00, +1 (425) 555-0100")]
+        [TestCase("Jeffrey Richter", 1000000, "+1 (425) 555-0100", "N", ExpectedResult = "Jeffrey Richter")]
+        [TestCase("Jeffrey Richter", 1000000, "+1 (425) 555-0100", "NR", ExpectedResult =
+            "Jeffrey Richter, 1,000,000.00")]
+        [TestCase("Jeffrey Richter", 1000000, "+1 (425) 555-0100", "P", ExpectedResult = "+1 (425) 555-0100")]
+        [TestCase("Jeffrey Richter", 1000000, "+1 (425) 555-0100", "F", ExpectedResult =
+            "Jeffrey Richter, 1,000,000.00, +1 (425) 555-0100")]
         public string CustomerToString_Test(string name, decimal revenue, string phone, string format)
         {
             var c = new Customer
             {
-                Name =name,
+                Name = name,
                 Revenue = revenue,
                 Phone = phone
             };
             var res = c.ToString(format);
             return res;
         }
-        
+
         [TestCase("The In", "THE WIND IN THE WILLOWS", ExpectedResult = "The Wind in the Willows")]
         [TestCase("a an the of", "a clash of KINGS", ExpectedResult = "A Clash of Kings")]
-        [TestCase("","the quick brown fox",ExpectedResult = "The Quick Brown Fox")]
+        [TestCase("", "the quick brown fox", ExpectedResult = "The Quick Brown Fox")]
         public string TitleCase_Test(string minorWords, string convertWord)
         {
             var res = StringHelper.TitleCase(convertWord, minorWords);
@@ -43,7 +47,8 @@ namespace Tests.FF
             return res;
         }
 
-        [TestCase("The greatest victory is that which requires no battle", ExpectedResult = "battle no requires which that is victory greatest The")]
+        [TestCase("The greatest victory is that which requires no battle", ExpectedResult =
+            "battle no requires which that is victory greatest The")]
         public string ReverseString_Test(string str)
         {
             var res = StringHelper.Reverse(str);
@@ -54,6 +59,13 @@ namespace Tests.FF
         public string AddStringNumber_Test(string a, string b)
         {
             var res = StringHelper.AddStringNumbers(a, b);
+            return res;
+        }
+
+        [TestCase("5 1 2 + 4 * + 3 -", ExpectedResult = 14)]
+        public int RPN_Test(string expr)
+        {
+            var res = RPN.Evaluate(expr);
             return res;
         }
     }
