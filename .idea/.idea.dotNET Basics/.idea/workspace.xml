@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e4d551-94ee-4db5-9333-c0156abe3e07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DLE/DLE.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DLE/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FF/Task8/RPN.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/GC.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/Task1/SearchAlgorithm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/Task2/TextFileHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/Task3/Fibonacci.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/Task5/Stack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GC/Task6/Set.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MPAO/MPAO.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MPAO/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/FF/GCTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/FF/FFTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FF/FFTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotNET Basics.sln" beforeDir="false" afterPath="$PROJECT_DIR$/dotNET Basics.sln" afterDir="false" />
-    </list>
+    <list default="true" id="b5e4d551-94ee-4db5-9333-c0156abe3e07" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +188,7 @@
       <workItem from="1571678354643" duration="4183000" />
       <workItem from="1571931156285" duration="33353000" />
       <workItem from="1572792597944" duration="2131000" />
-      <workItem from="1573301282530" duration="7992000" />
+      <workItem from="1573301282530" duration="8260000" />
     </task>
     <task id="LOCAL-00001" summary="Added projects&#10;Done 1-5 Basic Coding tasks">
       <created>1570821531562</created>
@@ -279,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572201832723</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="MPAO done">
+      <created>1573409964700</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573409964700</updated>
+    </task>
+    <task id="LOCAL-00012" summary="queue">
+      <created>1573409975476</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1573409975476</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +316,9 @@
     <MESSAGE value="Refactored FindByEqualSum method" />
     <MESSAGE value="OOP done" />
     <MESSAGE value="Framework Fundamentals done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Framework Fundamentals done" />
+    <MESSAGE value="MPAO done" />
+    <MESSAGE value="queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,19 +327,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MPAO/Program.cs</url>
-          <line>15</line>
-          <properties documentPath="$PROJECT_DIR$/MPAO/Program.cs" initialLine="15">
-            <startOffsets>
-              <option value="285" />
-            </startOffsets>
-            <endOffsets>
-              <option value="325" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <reveal-manager>
