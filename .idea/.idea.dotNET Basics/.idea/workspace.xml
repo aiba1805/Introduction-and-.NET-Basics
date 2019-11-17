@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e4d551-94ee-4db5-9333-c0156abe3e07" name="Default Changelist" comment="" />
+    <list default="true" id="b5e4d551-94ee-4db5-9333-c0156abe3e07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EFCore/AppContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/EFCore.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Migrations/20191117160424_InitialCreate.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Migrations/20191117160424_InitialCreate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Migrations/20191117161949_ProductsCarts.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Migrations/20191117161949_ProductsCarts.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Migrations/AppContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Models/Cart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Models/Comment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Models/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Models/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Models/Order.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Models/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Models/ProductsCarts.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Models/Seller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/shop.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotNET Basics.sln" beforeDir="false" afterPath="$PROJECT_DIR$/dotNET Basics.sln" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,81 +33,73 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Tests/FF/GCTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/INB/CreatingTypes.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tests/INB/BasicCodingTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GC/Task1/SearchAlgorithm.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OODP/Matrix/MatrixSymmetric.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DLE/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task3/Polynomial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task1/BubbleSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/OOP/BubbleSortTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/a4/6c918b2e/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tests/FF/FFTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/15/d6061ed2/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/15/d6061ed2/Task.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/56C1FBAA-ADF8-426A-91DB-87B46E8C8EAF/6e/15dc7c58/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FF/Task1/Customer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/INB/MethodDetails.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tests/INB/MethodDetailsTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GC/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GC/Task4/Queue.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tests/OOP/BubbleSortTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task1/BubbleSort.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GC/Task3/Fibonacci.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Rectangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FF/Task3/UrlHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FF/Task4/SequenceHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Square.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Triangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FF/Task256/StringHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/IShape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Circle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OODP/Matrix/MatrixSquare.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Triangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Rectangle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task3/Polynomial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Models/Comment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Models/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Models/Order.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/AppContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GC/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MPAO/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/SimpleWorkItemDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/CompositeWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/IShape.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GC/Task5/Stack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OODP/Matrix/MatrixBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FF/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/INB/BasicCodingTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/INB/MethodDetailsTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GC/Task1/SearchAlgorithm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B9C5BD74-CC2C-4F28-BBAA-29643F0B8BE7/72/85fbe916/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GC/Task2/TextFileHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GC/Task3/Fibonacci.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GC/Task4/Queue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GC/Task5/Stack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OODP/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GC/Task6/Set.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tests/INB/CreatingTypesTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FF/Task4/SequenceHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Migrations/20191117160424_InitialCreate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GC/Task8/RPN.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Migrations/AppContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6936A521-FED8-4DEB-8B14-A7F0DF001041/85/f97fa264/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MPAO/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OODP/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FF/Task8/RPN.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FF/Task256/StringHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/INB/BasicCoding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DLE/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Models/ProductsCarts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Migrations/20191117161949_ProductsCarts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Migrations/20191117161949_ProductsCarts.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OODP/Matrix/MatrixSymmetric.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D392DB2F-B3D6-4F4F-A564-A7B744FC7801/f6/26fd07cc/MethodWrapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/INB/GCD.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/GC/Task2/TextFileHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/INB/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FF/Task3/UrlHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tests/OOP/PolynomialTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OODP/Matrix/MatrixDiagonal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OODP/Matrix/MatrixSquare.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OODP/Matrix/MatrixBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/INB/CreatingTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/INB/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/INB/MethodDetails.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/INB/GCD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/INB/BasicCoding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/FF/FFTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/OOP/PolynomialTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Models/Cart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/FF/GCTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Models/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FF/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/INB/CreatingTypesTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Models/Seller.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BasicCoding/BasicCoding.cs" />
-        <option value="$PROJECT_DIR$/CreatingTypes/CTTasks.cs" />
-        <option value="$PROJECT_DIR$/INB/BCTasks.cs" />
-        <option value="$PROJECT_DIR$/INB/Program.cs" />
-        <option value="$PROJECT_DIR$/Tests/INBTest.cs" />
-        <option value="$PROJECT_DIR$/Tests/BasicCodingTest.cs" />
-        <option value="$PROJECT_DIR$/INB/CreatingTypes.cs" />
-        <option value="$PROJECT_DIR$/Tests/CreatingTypesTest.cs" />
-        <option value="$PROJECT_DIR$/INB/GCD.cs" />
-        <option value="$PROJECT_DIR$/Tests/MethodDetailsTest.cs" />
-        <option value="$PROJECT_DIR$/INB/MethodDetails.cs" />
-        <option value="$PROJECT_DIR$/INB/BasicCoding.cs" />
-        <option value="$PROJECT_DIR$/BasicsOfOOP/Program.cs" />
-        <option value="$PROJECT_DIR$/BasicsOfOOP/Task2/IShape.cs" />
-        <option value="$PROJECT_DIR$/BasicsOfOOP/Task2/Circle.cs" />
-        <option value="$PROJECT_DIR$/BasicsOfOOP/Task2/Triangle.cs" />
-        <option value="$PROJECT_DIR$/BasicsOfOOP/Task2/Square.cs" />
-        <option value="$PROJECT_DIR$/BasicsOfOOP/Task2/Rectangular.cs" />
-        <option value="$PROJECT_DIR$/BasicsOfOOP/Task2/Rectangle.cs" />
-        <option value="$PROJECT_DIR$/Tests/OOP/PolynomialTest.cs" />
-        <option value="$PROJECT_DIR$/BasicsOfOOP/Task3/Polynomial.cs" />
-        <option value="$PROJECT_DIR$/BasicsOfOOP/Task1/BubbleSortClass.cs" />
         <option value="$PROJECT_DIR$/BasicsOfOOP/Task1/BubbleSort.cs" />
         <option value="$PROJECT_DIR$/Tests/OOP/BubbleSortTest.cs" />
         <option value="$PROJECT_DIR$/OODP/Matrix/MatrixSquare.cs" />
@@ -112,10 +125,32 @@
         <option value="$PROJECT_DIR$/GC/Task4/Queue.cs" />
         <option value="$PROJECT_DIR$/GC/Task5/Stack.cs" />
         <option value="$PROJECT_DIR$/GC/Task6/Set.cs" />
-        <option value="$PROJECT_DIR$/Tests/FF/GCTest.cs" />
         <option value="$PROJECT_DIR$/FF/Task8/RPN.cs" />
-        <option value="$PROJECT_DIR$/Tests/FF/FFTest.cs" />
         <option value="$PROJECT_DIR$/MPAO/Program.cs" />
+        <option value="$PROJECT_DIR$/Tests/FF/FFTest.cs" />
+        <option value="$PROJECT_DIR$/Tests/FF/GCTest.cs" />
+        <option value="$PROJECT_DIR$/EF/EF.csproj" />
+        <option value="$PROJECT_DIR$/EF/Models/Entity.cs" />
+        <option value="$PROJECT_DIR$/EF/Models/Seller.cs" />
+        <option value="$PROJECT_DIR$/EF/Data/ShopContext.cs" />
+        <option value="$PROJECT_DIR$/EF/Models/Comment.cs" />
+        <option value="$PROJECT_DIR$/EF/Models/Order.cs" />
+        <option value="$PROJECT_DIR$/EF/Models/Product.cs" />
+        <option value="$PROJECT_DIR$/EF/Models/Customer.cs" />
+        <option value="$PROJECT_DIR$/EF/Program.cs" />
+        <option value="$PROJECT_DIR$/EF/ShopContext.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Cart.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Models/Order.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Models/Comment.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Models/Seller.cs" />
+        <option value="$PROJECT_DIR$/EF/Models/Cart.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Models/Customer.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Models/Entity.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Models/ProductsCarts.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Models/Cart.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Models/Product.cs" />
+        <option value="$PROJECT_DIR$/EFCore/AppContext.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Program.cs" />
       </list>
     </option>
   </component>
@@ -151,28 +186,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.Default">
+  <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/MPAO/bin/Debug/netcoreapp3.0/MPAO.dll" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp2.1/EFCore.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MPAO/bin/Debug/netcoreapp3.0" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp2.1" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MPAO/MPAO.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/EFCore/EFCore.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue=".NET Project.Default" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -188,7 +220,9 @@
       <workItem from="1571678354643" duration="4183000" />
       <workItem from="1571931156285" duration="33353000" />
       <workItem from="1572792597944" duration="2131000" />
-      <workItem from="1573301282530" duration="8260000" />
+      <workItem from="1573301282530" duration="8655000" />
+      <workItem from="1573983633051" duration="6346000" />
+      <workItem from="1573998437697" duration="4059000" />
     </task>
     <task id="LOCAL-00001" summary="Added projects&#10;Done 1-5 Basic Coding tasks">
       <created>1570821531562</created>
@@ -274,7 +308,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573409975476</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="moved to GC">
+      <created>1573410075041</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573410075041</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Test fixed">
+      <created>1573410107917</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573410107917</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +366,9 @@
     <MESSAGE value="Framework Fundamentals done" />
     <MESSAGE value="MPAO done" />
     <MESSAGE value="queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="queue" />
+    <MESSAGE value="moved to GC" />
+    <MESSAGE value="Test fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
