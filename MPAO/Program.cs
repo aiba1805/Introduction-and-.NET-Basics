@@ -26,7 +26,7 @@ namespace MPAO
         private static async Task Calculate(int num, CancellationToken token)
         {
             var sum = 0;
-            for (var i = 0; i <= num; i++)
+            for (var i = 1; i <= num; i++)
             {
                 if (token.IsCancellationRequested)
                 {
