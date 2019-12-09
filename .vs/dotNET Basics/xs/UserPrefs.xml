@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{CCAB7F09-9C70-4E71-9CB5-DDE353F3B00C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AS.Core/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="AS.Core/Controllers/HomeController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="dotNET Basics" expanded="True">
+            <Node name="ASP.NET MVC" expanded="True">
+              <Node name="AS.Core" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Home" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Introduction_220and_220.NET_220Basics.INB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
