@@ -1,0 +1,50 @@
+@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityRole<Guid>>
+@{
+    ViewBag.Title = "Index";
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<div class="row">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">List of roles</li>
+        </ol>
+    </nav>
+</div>
+<p>
+    <a asp-action="Create">Add new role</a>
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <form asp-action="Delete" asp-controller="Roles" asp-route-id="@item.Id" method="post">
+                    <button type="submit" class="btn btn-sm btn-danger">
+                        Detele
+                    </button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+</body>
+</html>

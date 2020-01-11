@@ -11,7 +11,7 @@ namespace AS.Core.Profiles
         {
             CreateMap<Reward, RewardViewModel>()
                 .ForMember(x => x.ImagePath
-                    , opt => opt.MapFrom(src => "Images/" + Path.GetFileName(src.ImagePath)));
+                    , opt => opt.MapFrom(src => "~/Images/" + Path.GetFileName(src.ImagePath)));
             CreateMap<RewardViewModel, Reward>();
         }
     }

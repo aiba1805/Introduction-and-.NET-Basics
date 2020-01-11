@@ -1,4 +1,4 @@
-@model AS.Core.ViewModels.UserViewModel
+@model AS.Core.ViewModels.EditUserViewModel
 
 @{
     Layout = "_Layout";
@@ -28,9 +28,14 @@
                 {
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
-                        <label asp-for="Name" class="control-label"></label>
-                        <input asp-for="Name" class="form-control" />
-                        <span asp-validation-for="Name" class="text-danger"></span>
+                        <label asp-for="FirstName" class="control-label"></label>
+                        <input asp-for="FirstName" class="form-control"/>
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="LastName" class="control-label"></label>
+                        <input asp-for="LastName" class="form-control"/>
+                        <span asp-validation-for="LastName" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <label asp-for="BirthDate" class="control-label"></label>
@@ -38,8 +43,13 @@
                         <span asp-validation-for="BirthDate" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="PhotoPath" class="control-label"></label>
-                        <input type="file" name="file" id="file" />
+                        <label asp-for="Photo" class="control-label"></label>
+                                        <input asp-for="Photo"/>
+                                        <span asp-validation-for="Photo" class="text-danger"></span>
+                        <div class="rounded">
+                            <img src="@Url.Content(Model.PhotoPath)" class="img-thumbnail" alt="" width="250"
+                                 height="200">
+                        </div>
                     </div>
                     <input type="hidden" asp-for="Id" />
                     <div class="form-group">

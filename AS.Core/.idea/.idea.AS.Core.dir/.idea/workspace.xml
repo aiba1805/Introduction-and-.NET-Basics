@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7b3f94a-5bec-4a46-aed8-516eed56b249" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AS.Core.dir/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AS.Core.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AS.Core.dir/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AS.Core.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AS.Core.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AS.Core.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Attributes/BirthDateValidation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Comparers/UserBirthDateComparer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Migrations/20191230211906_Initial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/UserReward.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModels/AddRewardViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/User/AddReward.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/Images/287px-Halyk_kaharmany_original_1270249959254.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/Photos/bb8ff7426b611629c6b9f99d7483b62e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dotNET Basics.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.dotNET Basics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.dotNET Basics/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.dotNET Basics/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.dotNET Basics/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.dotNET Basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.dotNET Basics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AS.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AS.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/AS.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RewardController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/RewardController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/ApplicationContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20191208161413_Initial.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/20191230211906_Initial.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20191208161413_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20191208220437_Images.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20191208220437_Images.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/ApplicationContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/ApplicationContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Reward.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Reward.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profiles/UserProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Profiles/UserProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/RewardViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/RewardViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ViewModels/UserViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/UserViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Reward/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Reward/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Reward/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Reward/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/User/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/User/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/User/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/User/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/User/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/User/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/User/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/User/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/User/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/User/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/Images/Screenshot 2019-08-01 at 11.20.58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/Photos/Screenshot 2019-07-12 at 22.12.53.png" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1W7UDT3tvtWtU79HdtmN72HRFs6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7b3f94a-5bec-4a46-aed8-516eed56b249" name="Default Changelist" comment="" />
+      <created>1578500006739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578500006739</updated>
+      <workItem from="1578500008017" duration="4000" />
+      <workItem from="1578512668589" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -22,44 +22,41 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Title)
-        </th>
-        <th>
+<div>
+    <div class="row">
+        <div class="col-md-2">
+        @Html.DisplayNameFor(model => model.Title)
+        </div>
+        <div class="col-md-4">
             @Html.DisplayNameFor(model => model.Description)
-        </th>
-        <th>
+        </div>
+        <div class="col-md-3">
             @Html.DisplayNameFor(model => model.ImagePath)
-        </th>
-    </tr>
-    </thead>
-    <tbody>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
     @foreach (var item in Model)
     {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
+        <div class="row">
+            <div class="col-md-2">
+                @Html.DisplayFor(model => item.Title)
+            </div>
+            <div class="col-md-4">
+                @Html.DisplayFor(model => item.Description)
+            </div>
+            <div class="col-md-3">
                 <div class="rounded">
                     <img src="@item.ImagePath" class="img-thumbnail" alt="" width="250"
                          height="200">
                 </div>
-            </td>
-            <td>
+            </div>
+            <div class="col-md-3">
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+            </div>
+        </div>
     }
-    </tbody>
-</table>
+</div>
 </body>
 </html>

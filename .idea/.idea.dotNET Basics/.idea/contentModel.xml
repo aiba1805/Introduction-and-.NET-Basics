@@ -7,40 +7,126 @@
     <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/nunit.engine.netstandard.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/NUnit3.TestAdapter.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.13.0/build/netcoreapp1.0/NUnit3.TestAdapter.pdb" t="Include" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_dotNET Basics.667398126.00" t="ExcludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_dotNET Basics.667398126.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="AS.Core" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Identity" t="Include">
+            <e p="IdentityHostingStartup.cs" t="Include" />
+            <e p="Pages" t="Include">
+              <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Account" t="Include">
+                <e p="_StatusMessage.cshtml" t="Include" />
+                <e p="_ViewImports.cshtml" t="Include" />
+                <e p="AccessDenied.cshtml" t="Include" />
+                <e p="AccessDenied.cshtml.cs" t="Include" />
+                <e p="ConfirmEmail.cshtml" t="Include" />
+                <e p="ConfirmEmail.cshtml.cs" t="Include" />
+                <e p="ConfirmEmailChange.cshtml" t="Include" />
+                <e p="ConfirmEmailChange.cshtml.cs" t="Include" />
+                <e p="ExternalLogin.cshtml" t="Include" />
+                <e p="ExternalLogin.cshtml.cs" t="Include" />
+                <e p="ForgotPassword.cshtml" t="Include" />
+                <e p="ForgotPassword.cshtml.cs" t="Include" />
+                <e p="ForgotPasswordConfirmation.cshtml" t="Include" />
+                <e p="ForgotPasswordConfirmation.cshtml.cs" t="Include" />
+                <e p="Lockout.cshtml" t="Include" />
+                <e p="Lockout.cshtml.cs" t="Include" />
+                <e p="Login.cshtml" t="Include" />
+                <e p="Login.cshtml.cs" t="Include" />
+                <e p="LoginWith2fa.cshtml" t="Include" />
+                <e p="LoginWith2fa.cshtml.cs" t="Include" />
+                <e p="LoginWithRecoveryCode.cshtml" t="Include" />
+                <e p="LoginWithRecoveryCode.cshtml.cs" t="Include" />
+                <e p="Logout.cshtml" t="Include" />
+                <e p="Logout.cshtml.cs" t="Include" />
+                <e p="Manage" t="Include">
+                  <e p="_Layout.cshtml" t="Include" />
+                  <e p="_ManageNav.cshtml" t="Include" />
+                  <e p="_StatusMessage.cshtml" t="Include" />
+                  <e p="_ViewImports.cshtml" t="Include" />
+                  <e p="ChangePassword.cshtml" t="Include" />
+                  <e p="ChangePassword.cshtml.cs" t="Include" />
+                  <e p="DeletePersonalData.cshtml" t="Include" />
+                  <e p="DeletePersonalData.cshtml.cs" t="Include" />
+                  <e p="Disable2fa.cshtml" t="Include" />
+                  <e p="Disable2fa.cshtml.cs" t="Include" />
+                  <e p="DownloadPersonalData.cshtml" t="Include" />
+                  <e p="DownloadPersonalData.cshtml.cs" t="Include" />
+                  <e p="Email.cshtml" t="Include" />
+                  <e p="Email.cshtml.cs" t="Include" />
+                  <e p="EnableAuthenticator.cshtml" t="Include" />
+                  <e p="EnableAuthenticator.cshtml.cs" t="Include" />
+                  <e p="ExternalLogins.cshtml" t="Include" />
+                  <e p="ExternalLogins.cshtml.cs" t="Include" />
+                  <e p="GenerateRecoveryCodes.cshtml" t="Include" />
+                  <e p="GenerateRecoveryCodes.cshtml.cs" t="Include" />
+                  <e p="Index.cshtml" t="Include" />
+                  <e p="Index.cshtml.cs" t="Include" />
+                  <e p="ManageNavPages.cs" t="Include" />
+                  <e p="PersonalData.cshtml" t="Include" />
+                  <e p="PersonalData.cshtml.cs" t="Include" />
+                  <e p="ResetAuthenticator.cshtml" t="Include" />
+                  <e p="ResetAuthenticator.cshtml.cs" t="Include" />
+                  <e p="SetPassword.cshtml" t="Include" />
+                  <e p="SetPassword.cshtml.cs" t="Include" />
+                  <e p="ShowRecoveryCodes.cshtml" t="Include" />
+                  <e p="ShowRecoveryCodes.cshtml.cs" t="Include" />
+                  <e p="TwoFactorAuthentication.cshtml" t="Include" />
+                  <e p="TwoFactorAuthentication.cshtml.cs" t="Include" />
+                </e>
+                <e p="Register.cshtml" t="Include" />
+                <e p="Register.cshtml.cs" t="Include" />
+                <e p="RegisterConfirmation.cshtml" t="Include" />
+                <e p="RegisterConfirmation.cshtml.cs" t="Include" />
+                <e p="ResetPassword.cshtml" t="Include" />
+                <e p="ResetPassword.cshtml.cs" t="Include" />
+                <e p="ResetPasswordConfirmation.cshtml" t="Include" />
+                <e p="ResetPasswordConfirmation.cshtml.cs" t="Include" />
+              </e>
+              <e p="Error.cshtml" t="Include" />
+              <e p="Error.cshtml.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="AS.Core.csproj" t="IncludeRecursive" />
-        <e p="AS.sqlite" t="Include" />
+        <e p="Attributes" t="Include">
+          <e p="BirthDateValidation.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Comparers" t="Include">
+          <e p="UserBirthdateComparer.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
           <e p="RewardController.cs" t="Include" />
+          <e p="RolesController.cs" t="Include" />
           <e p="UserController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
           <e p="ApplicationContext.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20191208161413_Initial.cs" t="Include" />
-          <e p="20191208161413_Initial.Designer.cs" t="Include" />
-          <e p="20191208220437_Images.cs" t="Include" />
-          <e p="20191208220437_Images.Designer.cs" t="Include" />
+          <e p="20200108203508_CreateIdentitySchema.cs" t="Include" />
+          <e p="20200108203508_CreateIdentitySchema.Designer.cs" t="Include" />
           <e p="ApplicationContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="Entity.cs" t="Include" />
           <e p="Reward.cs" t="Include" />
           <e p="User.cs" t="Include" />
+          <e p="UserReward.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.0" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="AS.Core.AssemblyInfo.cs" t="Include" />
+              <e p="AS.Core.RazorAssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -52,15 +138,28 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="ScaffoldingReadMe.txt" t="Include" />
+        <e p="Services" t="Include">
+          <e p="EmailSender.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="ViewModels" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="RewardViewModel.cs" t="Include" />
-          <e p="UserViewModel.cs" t="Include" />
+          <e p="RoleViewModel.cs" t="Include" />
+          <e p="User" t="Include">
+            <e p="AddRewardViewModel.cs" t="Include" />
+            <e p="EditUserViewModel.cs" t="Include" />
+            <e p="UserViewModel.cs" t="Include" />
+          </e>
         </e>
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Privacy.cshtml" t="Include" />
+          </e>
           <e p="Reward" t="Include">
             <e p="Create.cshtml" t="Include" />
             <e p="Delete.cshtml" t="Include" />
@@ -68,16 +167,24 @@
             <e p="Edit.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
+          <e p="Roles" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginPartial.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
             <e p="Error.cshtml" t="Include" />
           </e>
           <e p="User" t="Include">
+            <e p="AddReward.cshtml" t="Include" />
             <e p="Create.cshtml" t="Include" />
             <e p="Delete.cshtml" t="Include" />
             <e p="Details.cshtml" t="Include" />
             <e p="Edit.cshtml" t="Include" />
+            <e p="GuestIndex.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
         </e>
@@ -87,7 +194,7 @@
           </e>
           <e p="favicon.ico" t="Include" />
           <e p="Images" t="Include">
-            <e p="Screenshot 2019-08-01 at 11.20.58.png" t="Include" />
+            <e p="287px-Halyk_kaharmany_original_1270249959254.jpg" t="Include" />
           </e>
           <e p="js" t="Include">
             <e p="site.js" t="Include" />
@@ -146,7 +253,8 @@
             </e>
           </e>
           <e p="Photos" t="Include">
-            <e p="Screenshot 2019-07-12 at 22.12.53.png" t="Include" />
+            <e p="bb8ff7426b611629c6b9f99d7483b62e.jpg" t="Include" />
+            <e p="photo_2020-01-12 04.23.34.jpeg" t="Include" />
           </e>
         </e>
       </e>

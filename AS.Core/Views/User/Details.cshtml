@@ -1,3 +1,4 @@
+@using Microsoft.Extensions.Hosting
 @model AS.Core.ViewModels.UserViewModel
 
 @{
@@ -23,18 +24,27 @@
 <div>
     <h4>User</h4>
     <hr />
-    <dl class="row">>
+    <dl class="row">
         <dt class="col-sm-2">
-            <div class="rounded">
-                <img src="@Model.PhotoPath" class="img-thumbnail" alt="" width="250"
-                     height="200">
-            </div>
-        </dt>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
+            @Html.DisplayNameFor(model=>model.PhotoPath)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Name)
+            <div class="rounded">
+                <img src="@Url.Content(@Model.PhotoPath)" class="img-thumbnail" alt="" width="250"
+                     height="200">
+            </div>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LastName)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.BirthDate)
