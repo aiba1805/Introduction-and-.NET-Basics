@@ -111,6 +111,9 @@
         <e p="Data" t="Include">
           <e p="ApplicationContext.cs" t="Include" />
         </e>
+        <e p="Helpers" t="Include">
+          <e p="SessionExtensions.cs" t="Include" />
+        </e>
         <e p="Migrations" t="Include">
           <e p="20200108203508_CreateIdentitySchema.cs" t="Include" />
           <e p="20200108203508_CreateIdentitySchema.Designer.cs" t="Include" />
@@ -140,7 +143,9 @@
         </e>
         <e p="ScaffoldingReadMe.txt" t="Include" />
         <e p="Services" t="Include">
+          <e p="Abstract" t="Include" />
           <e p="EmailSender.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="ViewModels" t="Include">
@@ -179,6 +184,7 @@
             <e p="Error.cshtml" t="Include" />
           </e>
           <e p="User" t="Include">
+            <e p="_CreateUser.cshtml" t="Include" />
             <e p="AddReward.cshtml" t="Include" />
             <e p="Create.cshtml" t="Include" />
             <e p="Delete.cshtml" t="Include" />
@@ -253,8 +259,15 @@
             </e>
           </e>
           <e p="Photos" t="Include">
+            <e p="1200px-Volodymyr_Zelensky_Official_portrait.jpg" t="Include" />
+            <e p="B.A.Sagyntaev.jpg" t="Include" />
+            <e p="Bauyrzhan_Baibek.jpg" t="Include" />
             <e p="bb8ff7426b611629c6b9f99d7483b62e.jpg" t="Include" />
-            <e p="photo_2020-01-12 04.23.34.jpeg" t="Include" />
+            <e p="Imangali_Tasmagambetov_(2015-04-16).jpg" t="Include" />
+            <e p="Karim_Masimov.jpg" t="Include" />
+            <e p="Kassym-Jomart_Tokayev_(2019-11-07)_01.jpg" t="Include" />
+            <e p="Nurlan_Nigmatulin_09_(cropped).jpg" t="Include" />
+            <e p="Аскар_Узакпаевич_Мамин.jpg" t="Include" />
           </e>
         </e>
       </e>

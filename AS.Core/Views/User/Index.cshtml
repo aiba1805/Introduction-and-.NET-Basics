@@ -1,5 +1,4 @@
 @model IEnumerable<AS.Core.ViewModels.UserViewModel>
-
 @{
     Layout = "_Layout";
 }
@@ -19,10 +18,13 @@
         </ol>
     </nav>
 </div>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<div class="row">
+    <a class="createUser btn btn-primary">Create user</a>
+</div>
+<div class="createUserContainer" style="display:none;">
+    @await Html.PartialAsync("_CreateUser", new UserViewModel())
+</div>
+    <table class="table">
     <thead>
     <tr>
         <th>
@@ -42,10 +44,10 @@
         </th>
     </tr>
     </thead>
-    <tbody>
+    <tbody id="userList">
     @foreach (var item in Model)
     {
-        <tr>
+        <tr class="user" data-id="@item.Id">
             <td>
                 @Html.DisplayFor(modelItem => item.FirstName)
             </td>
@@ -67,7 +69,7 @@
                     <div class="col-sm-12">
                         <a asp-action="Details" asp-controller="Reward" asp-route-id="@reward.Id" data-toggle="tooltip" data-placement="top" title="@reward.Title">
                             <div class="rounded mx-auto">
-                                <img src="@Url.Content(@System.IO.Path.GetFileName(@reward.ImagePath))" class="img-thumbnail" alt="" width="50"
+                                <img src="@Url.Content(@System.IO.Path.Combine("Images/",@System.IO.Path.GetFileName(@reward.ImagePath)))" class="img-thumbnail" alt="" width="50"
                                      height="50">
                             </div>
                         </a>
@@ -75,11 +77,11 @@
                 }
             </td>
             <td>
-                <a asp-action="AddReward" asp-route-id="@item.Id">Add Reward</a> |
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Edit" asp-controller="Roles" asp-route-userid="@item.Id">Edit role</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="AddReward" asp-route-id="@item.Id" class="btn btn-outline-primary">Add Reward</a> |
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary">Edit</a> |
+                <a asp-action="Edit" asp-controller="Roles" asp-route-userid="@item.Id" class="btn btn-outline-primary">Edit role</a> |
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary">Details</a> |
+                <a class="remove btn btn-outline-danger">Delete</a>
             </td>
         </tr>
     }
@@ -87,3 +89,13 @@
 </table>
 </body>
 </html>
+
+
+@*
+@section Scripts{
+    <script>
+        let urls = {
+            updateFirstName: '@Url.Action("EditFirstName", "User")'
+        };
+    </script>*@
+}

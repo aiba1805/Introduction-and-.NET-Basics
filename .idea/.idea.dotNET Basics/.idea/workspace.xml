@@ -1,194 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e4d551-94ee-4db5-9333-c0156abe3e07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AS.Core/.idea/.idea.AS.Core.dir/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/.idea/.idea.AS.Core.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/.idea/.idea.AS.Core.dir/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/.idea/.idea.AS.Core.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/.idea/.idea.AS.Core.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/.idea/.idea.AS.Core.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/IdentityHostingStartup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/AccessDenied.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/AccessDenied.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ConfirmEmail.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ConfirmEmail.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ExternalLogin.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ExternalLogin.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ForgotPassword.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ForgotPassword.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Lockout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Lockout.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/LoginWith2fa.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/LoginWith2fa.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Logout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Logout.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/Email.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/Email.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ResetPassword.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ResetPassword.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/_StatusMessage.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Attributes/BirthDateValidation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Comparers/UserBirthDateComparer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Controllers/RolesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Migrations/20200108203508_CreateIdentitySchema.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Migrations/20200108203508_CreateIdentitySchema.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Models/UserReward.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/ScaffoldingReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Services/EmailSender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/ViewModels/RoleViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/ViewModels/User/AddRewardViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/ViewModels/User/EditUserViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/ViewModels/User/UserViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Views/Home/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Views/Roles/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Views/Roles/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Views/Roles/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Views/User/AddReward.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/Views/User/GuestIndex.cshtml" afterDir="false" />
+    <list default="true" id="b5e4d551-94ee-4db5-9333-c0156abe3e07" name="Default Changelist" comment="DB changed to PostgreSQL&#10;Added Identity&#10;Routing configured&#10;Added authorization by roles&#10;Tasks 4,5,6 done">
+      <change afterPath="$PROJECT_DIR$/AS.Core/Helpers/SessionExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AS.Core/Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AS.Core/Views/User/_CreateUser.cshtml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Images/287px-Halyk_kaharmany_original_1270249959254.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/bb8ff7426b611629c6b9f99d7483b62e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/photo_2020-01-12 04.23.34.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dotNET Basics.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Models/ErrorViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Views/Home/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Views/Shared/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/1200px-Volodymyr_Zelensky_Official_portrait.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/B.A.Sagyntaev.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/Bauyrzhan_Baibek.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/Imangali_Tasmagambetov_(2015-04-16).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/Karim_Masimov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/Kassym-Jomart_Tokayev_(2019-11-07)_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/Nurlan_Nigmatulin_09_(cropped).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/Аскар_Узакпаевич_Мамин.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotNET Basics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AS.Core/AS.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/AS.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/AS.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Controllers/RewardController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Controllers/RewardController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AS.Core/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Controllers/UserController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AS.Core/Data/ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Data/ApplicationContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Migrations/20191208161413_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Migrations/20191208161413_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Migrations/20191208220437_Images.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Migrations/20191208220437_Images.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Migrations/ApplicationContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Migrations/ApplicationContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Models/Reward.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Models/Reward.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Profiles/RewardProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Profiles/RewardProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Profiles/UserProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Profiles/UserProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AS.Core/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/ViewModels/RewardViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/ViewModels/RewardViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/ViewModels/UserViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Views/Reward/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/Reward/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Views/Reward/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/Reward/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Views/Reward/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/Reward/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Views/Reward/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/Reward/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AS.Core/Views/User/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/User/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Views/User/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/User/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Views/User/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/User/Details.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/Views/User/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/User/Edit.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AS.Core/Views/User/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/User/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AS.Core/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/Views/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/wwwroot/Images/Screenshot 2019-08-01 at 11.20.58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AS.Core/wwwroot/Photos/Screenshot 2019-07-12 at 22.12.53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AS.Core/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/AS.Core/wwwroot/js/site.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +113,6 @@
     <setting file="file://$PROJECT_DIR$/GC/Task8/RPN.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EFCore/Models/Cart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EFCore/Models/Order.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/test/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EFCore/Models/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EFCore/Models/Seller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EFCore/Models/ProductsCarts.cs" root0="FORCE_HIGHLIGHTING" />
@@ -298,6 +133,8 @@
     <setting file="file://$PROJECT_DIR$/AS.Core/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task2/Rectangle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicsOfOOP/Task3/Polynomial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AS.Core/Helpers/SessionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AS.Core/Views/User/_CreateUser.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/INB/CreatingTypes.cs" root0="FORCE_HIGHLIGHTING" />
@@ -306,7 +143,6 @@
     <setting file="file://$PROJECT_DIR$/INB/GCD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/INB/BasicCoding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Data/ApplicationContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/test/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/IdentityHostingStartup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -314,6 +150,7 @@
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Error.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/LoginWith2fa.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/AccessDenied.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -321,6 +158,7 @@
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Logout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/_StatusMessage.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/AccessDenied.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/FF/FFTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/FF/GCTest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -333,9 +171,11 @@
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -353,6 +193,7 @@
     <setting file="file://$PROJECT_DIR$/AS.Core/Views/Roles/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Views/Roles/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Views/Roles/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AS.Core/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Views/Reward/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Views/Reward/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AS.Core/Views/Reward/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -393,21 +234,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AS.Core/ViewModels/AddRewardViewModel.cs" />
-        <option value="$PROJECT_DIR$/AS.Core/Views/User/AddReward.cshtml" />
-        <option value="$PROJECT_DIR$/AS.Core/Views/_ViewStart.cshtml" />
-        <option value="$PROJECT_DIR$/AS.Core/Views/_ViewImports.cshtml" />
-        <option value="$PROJECT_DIR$/AS.Core/Views/Reward/Index.cshtml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0127dec9-9269-42ee-96c8-93b9c2fb938b/console.sql" />
-        <option value="$PROJECT_DIR$/AS.Core/Helpers/UserBirthdateComparer.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Comparers/UserBirthdateComparer.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Comparers/UserBirthDateComparer.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Views/User/Delete.cshtml" />
         <option value="$PROJECT_DIR$/AS.Core/AS.Core.csproj" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/095ba99e-ff83-4743-99f2-6e9d75e80e55/console.sql" />
-        <option value="$PROJECT_DIR$/AS.Core/Models/User.cs" />
         <option value="$PROJECT_DIR$/AS.Core/appsettings.json" />
-        <option value="$PROJECT_DIR$/AS.Core/Data/ApplicationContext.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Login.cshtml" />
         <option value="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Login.cshtml.cs" />
@@ -430,20 +262,29 @@
         <option value="$PROJECT_DIR$/AS.Core/Areas/Identity/IdentityHostingStartup.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Services/Interfaces/IEmailSender.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Services/EmailSender.cs" />
-        <option value="$PROJECT_DIR$/AS.Core/Startup.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Controllers/RewardController.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Controllers/RolesController.cs" />
-        <option value="$PROJECT_DIR$/AS.Core/Views/User/Index.cshtml" />
-        <option value="$PROJECT_DIR$/AS.Core/Views/User/Create.cshtml" />
         <option value="$PROJECT_DIR$/AS.Core/ViewModels/UserViewModel.cs" />
         <option value="$PROJECT_DIR$/AS.Core/ViewModels/EditUserViewModel.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Views/User/Edit.cshtml" />
-        <option value="$PROJECT_DIR$/AS.Core/Profiles/UserProfile.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Views/User/AuthorizedIndex.cs" />
         <option value="$PROJECT_DIR$/AS.Core/ViewModels/User/AuthorizedViewModel.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Views/Shared/_LoginPartial.cshtml" />
         <option value="$PROJECT_DIR$/AS.Core/Areas/Identity/Pages/Account/Register.cshtml.cs" />
+        <option value="$PROJECT_DIR$/AS.Core/Services/Abstract/IUserService.cs" />
+        <option value="$PROJECT_DIR$/AS.Core/Profiles/UserProfile.cs" />
+        <option value="$PROJECT_DIR$/AS.Core/Models/User.cs" />
+        <option value="$PROJECT_DIR$/AS.Core/Data/ApplicationContext.cs" />
+        <option value="$PROJECT_DIR$/AS.Core/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/AS.Core/Helpers/SessionExtensions.cs" />
+        <option value="$PROJECT_DIR$/AS.Core/Views/User/Create.cshtml" />
+        <option value="$PROJECT_DIR$/AS.Core/Views/User/_CreateUser.cshtml" />
+        <option value="$PROJECT_DIR$/AS.Core/Startup.cs" />
+        <option value="$PROJECT_DIR$/AS.Core/Services/UserService.cs" />
         <option value="$PROJECT_DIR$/AS.Core/Controllers/UserController.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ef48bc34-68ca-4d61-9c77-fefa26ab1967/console.sql" />
+        <option value="$PROJECT_DIR$/AS.Core/Views/User/Index.cshtml" />
+        <option value="$PROJECT_DIR$/AS.Core/wwwroot/js/site.js" />
       </list>
     </option>
   </component>
@@ -475,6 +316,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/AS.Core/AS.sqlite" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.AS.Core: IIS Express">
@@ -551,7 +393,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:PostgreSQL - AS@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@723c832d" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@17ce6582" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -590,7 +432,7 @@
       <workItem from="1578764452589" duration="2312000" />
       <workItem from="1578769275542" duration="40000" />
       <workItem from="1578769357594" duration="444000" />
-      <workItem from="1578769935707" duration="5137000" />
+      <workItem from="1578769935707" duration="25064000" />
     </task>
     <task id="LOCAL-00001" summary="Added projects&#10;Done 1-5 Basic Coding tasks">
       <created>1570821531562</created>
@@ -711,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575855836984</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="DB changed to PostgreSQL&#10;Added Identity&#10;Routing configured&#10;Added authorization by roles&#10;Tasks 4,5,6 done">
+      <created>1578783031765</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578783031765</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,113 +607,139 @@
     <MESSAGE value="Test fixed" />
     <MESSAGE value="EF Task is done" />
     <MESSAGE value="Tasks 1,2,3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tasks 1,2,3 done" />
+    <MESSAGE value="DB changed to PostgreSQL&#10;Added Identity&#10;Routing configured&#10;Added authorization by roles&#10;Tasks 4,5,6 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB changed to PostgreSQL&#10;Added Identity&#10;Routing configured&#10;Added authorization by roles&#10;Tasks 4,5,6 done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578770156438">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1578770156438" />
-    <state width="1396" height="279" key="GridCell.Tab.0.bottom" timestamp="1578782778745">
+    <state width="477" height="466" key="DebuggerActiveHint" timestamp="1578951463531">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578782778745" />
-    <state width="1396" height="208" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578781192031" />
-    <state width="1396" height="279" key="GridCell.Tab.0.center" timestamp="1578782778743">
+    <state width="477" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1578951463531" />
+    <state width="1396" height="348" key="GridCell.Tab.0.bottom" timestamp="1579187478143">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578782778743" />
-    <state width="1396" height="208" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1578781192030" />
-    <state width="1396" height="279" key="GridCell.Tab.0.left" timestamp="1578782778743">
+    <state width="1396" height="348" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579187478143" />
+    <state width="1396" height="161" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1579187038034" />
+    <state width="1876" height="350" key="GridCell.Tab.0.bottom/0.23.1920.996@0.23.1920.996" timestamp="1579022373276" />
+    <state width="1396" height="348" key="GridCell.Tab.0.center" timestamp="1579187478141">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578782778743" />
-    <state width="1396" height="208" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1578781192029" />
-    <state width="1396" height="279" key="GridCell.Tab.0.right" timestamp="1578782778744">
+    <state width="1396" height="348" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579187478141" />
+    <state width="1396" height="161" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1579187038033" />
+    <state width="1876" height="350" key="GridCell.Tab.0.center/0.23.1920.996@0.23.1920.996" timestamp="1579022373275" />
+    <state width="1396" height="348" key="GridCell.Tab.0.left" timestamp="1579187478138">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578782778744" />
-    <state width="1396" height="208" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1578781192031" />
-    <state width="1396" height="279" key="GridCell.Tab.1.bottom" timestamp="1578782778746">
+    <state width="1396" height="348" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579187478138" />
+    <state width="1396" height="327" key="GridCell.Tab.0.left/0.0.1440.900@0.23.1440.831" timestamp="1578947769095" />
+    <state width="1396" height="161" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1579187038032" />
+    <state width="1876" height="350" key="GridCell.Tab.0.left/0.23.1920.996@0.23.1920.996" timestamp="1579022373275" />
+    <state width="1396" height="348" key="GridCell.Tab.0.right" timestamp="1579187478142">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578782778746" />
-    <state width="1396" height="206" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578773929361" />
-    <state width="1396" height="279" key="GridCell.Tab.1.center" timestamp="1578782778746">
+    <state width="1396" height="348" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579187478142" />
+    <state width="1396" height="161" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1579187038033" />
+    <state width="1876" height="350" key="GridCell.Tab.0.right/0.23.1920.996@0.23.1920.996" timestamp="1579022373275" />
+    <state width="1396" height="348" key="GridCell.Tab.1.bottom" timestamp="1579187495599">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1578782778746" />
-    <state width="1396" height="206" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1578773929360" />
-    <state width="1396" height="279" key="GridCell.Tab.1.left" timestamp="1578782778745">
+    <state width="1396" height="348" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579187495599" />
+    <state width="1396" height="175" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578954279101" />
+    <state width="1876" height="250" key="GridCell.Tab.1.bottom/0.23.1920.996@0.23.1920.996" timestamp="1579021821789" />
+    <state width="1396" height="348" key="GridCell.Tab.1.center" timestamp="1579187495598">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1578782778745" />
-    <state width="1396" height="206" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1578773929359" />
-    <state width="1396" height="279" key="GridCell.Tab.1.right" timestamp="1578782778746">
+    <state width="1396" height="348" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1579187495598" />
+    <state width="1396" height="175" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1578954279100" />
+    <state width="1876" height="250" key="GridCell.Tab.1.center/0.23.1920.996@0.23.1920.996" timestamp="1579021821788" />
+    <state width="1396" height="348" key="GridCell.Tab.1.left" timestamp="1579187495597">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1578782778746" />
-    <state width="1396" height="206" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1578773929361" />
-    <state width="1396" height="279" key="GridCell.Tab.2.bottom" timestamp="1578782778748">
+    <state width="1396" height="348" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1579187495597" />
+    <state width="1396" height="175" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1578954279099" />
+    <state width="1876" height="250" key="GridCell.Tab.1.left/0.23.1920.996@0.23.1920.996" timestamp="1579021821788" />
+    <state width="1396" height="348" key="GridCell.Tab.1.right" timestamp="1579187495599">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578782778748" />
-    <state width="1396" height="206" key="GridCell.Tab.2.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578773906020" />
-    <state width="1396" height="279" key="GridCell.Tab.2.center" timestamp="1578782778747">
+    <state width="1396" height="348" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1579187495599" />
+    <state width="1396" height="175" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1578954279100" />
+    <state width="1876" height="250" key="GridCell.Tab.1.right/0.23.1920.996@0.23.1920.996" timestamp="1579021821788" />
+    <state width="1396" height="348" key="GridCell.Tab.2.bottom" timestamp="1579187478033">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1578782778747" />
-    <state width="1396" height="206" key="GridCell.Tab.2.center/0.23.1440.831@0.23.1440.831" timestamp="1578773906019" />
-    <state width="1396" height="279" key="GridCell.Tab.2.left" timestamp="1578782778747">
+    <state width="1396" height="348" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579187478033" />
+    <state width="1396" height="175" key="GridCell.Tab.2.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578954279103" />
+    <state width="1876" height="250" key="GridCell.Tab.2.bottom/0.23.1920.996@0.23.1920.996" timestamp="1579021821790" />
+    <state width="1396" height="348" key="GridCell.Tab.2.center" timestamp="1579187478032">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1578782778747" />
-    <state width="1396" height="206" key="GridCell.Tab.2.left/0.23.1440.831@0.23.1440.831" timestamp="1578773906018" />
-    <state width="1396" height="279" key="GridCell.Tab.2.right" timestamp="1578782778747">
+    <state width="1396" height="348" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1579187478032" />
+    <state width="1396" height="175" key="GridCell.Tab.2.center/0.23.1440.831@0.23.1440.831" timestamp="1578954279102" />
+    <state width="1876" height="250" key="GridCell.Tab.2.center/0.23.1920.996@0.23.1920.996" timestamp="1579021821789" />
+    <state width="1396" height="348" key="GridCell.Tab.2.left" timestamp="1579187478031">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1578782778747" />
-    <state width="1396" height="206" key="GridCell.Tab.2.right/0.23.1440.831@0.23.1440.831" timestamp="1578773906020" />
-    <state width="1396" height="279" key="GridCell.Tab.3.bottom" timestamp="1578782778749">
+    <state width="1396" height="348" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1579187478031" />
+    <state width="1396" height="175" key="GridCell.Tab.2.left/0.23.1440.831@0.23.1440.831" timestamp="1578954279101" />
+    <state width="1876" height="250" key="GridCell.Tab.2.left/0.23.1920.996@0.23.1920.996" timestamp="1579021821789" />
+    <state width="1396" height="348" key="GridCell.Tab.2.right" timestamp="1579187478032">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578782778749" />
-    <state width="1396" height="206" key="GridCell.Tab.3.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578773906022" />
-    <state width="1396" height="279" key="GridCell.Tab.3.center" timestamp="1578782778749">
+    <state width="1396" height="348" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1579187478032" />
+    <state width="1396" height="175" key="GridCell.Tab.2.right/0.23.1440.831@0.23.1440.831" timestamp="1578954279103" />
+    <state width="1876" height="250" key="GridCell.Tab.2.right/0.23.1920.996@0.23.1920.996" timestamp="1579021821790" />
+    <state width="1396" height="348" key="GridCell.Tab.3.bottom" timestamp="1579187478035">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1578782778749" />
-    <state width="1396" height="206" key="GridCell.Tab.3.center/0.23.1440.831@0.23.1440.831" timestamp="1578773906021" />
-    <state width="1396" height="279" key="GridCell.Tab.3.left" timestamp="1578782778748">
+    <state width="1396" height="348" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579187478035" />
+    <state width="1396" height="175" key="GridCell.Tab.3.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578954279109" />
+    <state width="1876" height="250" key="GridCell.Tab.3.bottom/0.23.1920.996@0.23.1920.996" timestamp="1579021821792" />
+    <state width="1396" height="348" key="GridCell.Tab.3.center" timestamp="1579187478034">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1578782778748" />
-    <state width="1396" height="206" key="GridCell.Tab.3.left/0.23.1440.831@0.23.1440.831" timestamp="1578773906021" />
-    <state width="1396" height="279" key="GridCell.Tab.3.right" timestamp="1578782778749">
+    <state width="1396" height="348" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1579187478034" />
+    <state width="1396" height="175" key="GridCell.Tab.3.center/0.23.1440.831@0.23.1440.831" timestamp="1578954279105" />
+    <state width="1876" height="250" key="GridCell.Tab.3.center/0.23.1920.996@0.23.1920.996" timestamp="1579021821791" />
+    <state width="1396" height="348" key="GridCell.Tab.3.left" timestamp="1579187478033">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1578782778749" />
-    <state width="1396" height="206" key="GridCell.Tab.3.right/0.23.1440.831@0.23.1440.831" timestamp="1578773906022" />
-    <state width="1396" height="279" key="GridCell.Tab.4.bottom" timestamp="1578782778751">
+    <state width="1396" height="348" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1579187478033" />
+    <state width="1396" height="175" key="GridCell.Tab.3.left/0.23.1440.831@0.23.1440.831" timestamp="1578954279104" />
+    <state width="1876" height="250" key="GridCell.Tab.3.left/0.23.1920.996@0.23.1920.996" timestamp="1579021821791" />
+    <state width="1396" height="348" key="GridCell.Tab.3.right" timestamp="1579187478034">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.4.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578782778751" />
-    <state width="1396" height="206" key="GridCell.Tab.4.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578773906025" />
-    <state width="1396" height="279" key="GridCell.Tab.4.center" timestamp="1578782778750">
+    <state width="1396" height="348" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1579187478034" />
+    <state width="1396" height="175" key="GridCell.Tab.3.right/0.23.1440.831@0.23.1440.831" timestamp="1578954279105" />
+    <state width="1876" height="250" key="GridCell.Tab.3.right/0.23.1920.996@0.23.1920.996" timestamp="1579021821792" />
+    <state width="1396" height="348" key="GridCell.Tab.4.bottom" timestamp="1579187478038">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.4.center/0.0.1440.900@0.0.1440.900" timestamp="1578782778750" />
-    <state width="1396" height="206" key="GridCell.Tab.4.center/0.23.1440.831@0.23.1440.831" timestamp="1578773906024" />
-    <state width="1396" height="279" key="GridCell.Tab.4.left" timestamp="1578782778750">
+    <state width="1396" height="348" key="GridCell.Tab.4.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579187478038" />
+    <state width="1396" height="175" key="GridCell.Tab.4.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578954279112" />
+    <state width="1876" height="250" key="GridCell.Tab.4.bottom/0.23.1920.996@0.23.1920.996" timestamp="1579021819010" />
+    <state width="1396" height="348" key="GridCell.Tab.4.center" timestamp="1579187478036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.4.left/0.0.1440.900@0.0.1440.900" timestamp="1578782778750" />
-    <state width="1396" height="206" key="GridCell.Tab.4.left/0.23.1440.831@0.23.1440.831" timestamp="1578773906023" />
-    <state width="1396" height="279" key="GridCell.Tab.4.right" timestamp="1578782778750">
+    <state width="1396" height="348" key="GridCell.Tab.4.center/0.0.1440.900@0.0.1440.900" timestamp="1579187478036" />
+    <state width="1396" height="175" key="GridCell.Tab.4.center/0.23.1440.831@0.23.1440.831" timestamp="1578954279111" />
+    <state width="1876" height="250" key="GridCell.Tab.4.center/0.23.1920.996@0.23.1920.996" timestamp="1579021819009" />
+    <state width="1396" height="348" key="GridCell.Tab.4.left" timestamp="1579187478036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="279" key="GridCell.Tab.4.right/0.0.1440.900@0.0.1440.900" timestamp="1578782778750" />
-    <state width="1396" height="206" key="GridCell.Tab.4.right/0.23.1440.831@0.23.1440.831" timestamp="1578773906025" />
+    <state width="1396" height="348" key="GridCell.Tab.4.left/0.0.1440.900@0.0.1440.900" timestamp="1579187478036" />
+    <state width="1396" height="175" key="GridCell.Tab.4.left/0.23.1440.831@0.23.1440.831" timestamp="1578954279110" />
+    <state width="1876" height="250" key="GridCell.Tab.4.left/0.23.1920.996@0.23.1920.996" timestamp="1579021819008" />
+    <state width="1396" height="348" key="GridCell.Tab.4.right" timestamp="1579187478037">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="348" key="GridCell.Tab.4.right/0.0.1440.900@0.0.1440.900" timestamp="1579187478037" />
+    <state width="1396" height="175" key="GridCell.Tab.4.right/0.23.1440.831@0.23.1440.831" timestamp="1578954279111" />
+    <state width="1876" height="250" key="GridCell.Tab.4.right/0.23.1920.996@0.23.1920.996" timestamp="1579021819009" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1578770013014">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -873,6 +748,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="477" y="161" key="VCS.ChangeListViewerDialog/0.0.1440.900@0.0.1440.900" timestamp="1578771718500" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578783033396">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578783033396" />
+    <state x="590" y="352" width="338" height="196" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1578922499771">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="590" y="352" width="338" height="196" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.0.1440.900@0.0.1440.900" timestamp="1578922499771" />
+    <state x="456" y="140" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1578922440297">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="456" y="140" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1578922440297" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578952996400">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578952996400" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -881,6 +772,32 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AS.Core/Controllers/UserController.cs</url>
+          <line>252</line>
+          <properties documentPath="$PROJECT_DIR$/AS.Core/Controllers/UserController.cs" initialLine="252">
+            <startOffsets>
+              <option value="8505" />
+            </startOffsets>
+            <endOffsets>
+              <option value="8559" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/AS.Core/Controllers/UserController.cs</url>
+          <line>257</line>
+          <properties documentPath="$PROJECT_DIR$/AS.Core/Controllers/UserController.cs" initialLine="257">
+            <startOffsets>
+              <option value="8738" />
+            </startOffsets>
+            <endOffsets>
+              <option value="8739" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

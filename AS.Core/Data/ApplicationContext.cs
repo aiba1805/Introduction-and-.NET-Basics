@@ -8,7 +8,7 @@ namespace AS.Core.Data
 {
     public class ApplicationContext : IdentityDbContext<User,IdentityRole<Guid>,Guid>
     {
-        public DbSet<User> Users { get; set; }
+        public  DbSet<User> Users { get; set; }
         public DbSet<Reward> Rewards { get; set; }
 
         public DbSet<UserReward> UserRewards { get; set; }
@@ -17,7 +17,7 @@ namespace AS.Core.Data
         {
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=AS;Username=postgres;Password=postgres");
+            => optionsBuilder.UseLazyLoadingProxies().UseNpgsql("Host=localhost;Port=5432;Database=AS;Username=postgres;Password=postgres");
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

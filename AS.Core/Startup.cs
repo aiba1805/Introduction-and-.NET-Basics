@@ -18,6 +18,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using AS.Core.Services;
+using Microsoft.AspNetCore.Mvc;
 
 
 namespace AS.Core
@@ -36,29 +37,51 @@ namespace AS.Core
         {
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddAutoMapper(typeof(Startup));
-          
-//            services.AddEntityFrameworkNpgsql()
-//                .AddDbContext<ApplicationContext>()
-//                .BuildServiceProvider();
-            
+
+            /*services.AddEntityFrameworkNpgsql()
+                .AddDbContext<ApplicationContext>()
+                .BuildServiceProvider();*/
+
             services.AddDbContext<ApplicationContext>(options =>
                 options.UseNpgsql(connectionString));
 
-            services.AddIdentity<User, IdentityRole<Guid>>()
+            services.AddIdentity<User, IdentityRole<Guid>>(opts =>
+                {
+                    opts.User.RequireUniqueEmail = true;
+                    opts.Password.RequireNonAlphanumeric = false;
+                    opts.Password.RequireUppercase = false;
+                    opts.Password.RequireDigit = false;
+                    opts.Password.RequiredLength = 3;
+                })
                 .AddEntityFrameworkStores<ApplicationContext>()
                 .AddDefaultTokenProviders();
-                
-            services.AddControllersWithViews();
+
+            services.AddControllersWithViews(opt =>
+            {
+                opt.CacheProfiles.Add("Default",
+                    new CacheProfile()
+                    {
+                        Duration = 300,
+                        Location = ResponseCacheLocation.None
+                    });
+            });
             services.AddRazorPages();
-                services.ConfigureApplicationCookie(options =>
-                {
-                    options.LoginPath = $"/Identity/Account/Login";
-                    options.LogoutPath = $"/Identity/Account/Logout";
-                    options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
-                });
-            
-            
-                services.AddSingleton<IEmailSender, EmailSender>();
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = $"/Identity/Account/Login";
+                options.LogoutPath = $"/Identity/Account/Logout";
+                options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+            });
+            services.AddTransient<UserService>();
+            services.AddMemoryCache();
+            services.AddDistributedMemoryCache();
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromSeconds(10);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+            services.AddSingleton<IEmailSender, EmailSender>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -75,8 +98,14 @@ namespace AS.Core
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                OnPrepareResponse = ctx =>
+                {
+                    ctx.Context.Response.Headers.Add("Cache-Control", "public,max-age=600");
+                }
+            });
+            app.UseSession();
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();

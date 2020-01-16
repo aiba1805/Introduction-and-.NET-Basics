@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AS.Core.Data;
 using AS.Core.Models;
+using AS.Core.Services;
 using AS.Core.ViewModels;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
@@ -19,63 +20,64 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AS.Core.Controllers
 {
+    [Authorize]
     public class UserController : Controller
     {
         private readonly ApplicationContext _context;
         private readonly IWebHostEnvironment _appEnvironment;
         private readonly IMapper _mapper;
-        private readonly UserManager<User> _userManager;
-        private readonly string _defaultPass = "#123Aa";
         
-        public UserController(ApplicationContext context,IWebHostEnvironment appEnvironment, IMapper mapper
-        ,UserManager<User> userManager)
+        private readonly UserService _userService;
+        
+        public UserController(ApplicationContext context,IWebHostEnvironment appEnvironment, IMapper mapper, UserService userService)
         {
             _context = context;
             _appEnvironment = appEnvironment;
             _mapper = mapper;
-            _userManager = userManager;
+            _userService = userService;
         }
 
-        [Route("users"), Authorize(Roles = "authorized,admin")]
+        [Route("users")]
+        [ResponseCache(CacheProfileName = "Default")]
         public async Task<IActionResult> Index()
         {
-            var models = (from user in await _context.Users.ToListAsync() select _mapper.Map<UserViewModel>(user)).ToList();
+            var users = await _userService.GetUsers();
+            var models = (from user in users select _mapper.Map<UserViewModel>(user)).ToList();
             return View(models);
         }
         
         [Route("users/{s}")]
-        [Authorize(Roles="authorized,admin")]
+        [ResponseCache(CacheProfileName = "Default")]
         public async Task<IActionResult> Index(char s)
         {
-            var users = _context.Users.Where(x => x.FirstName.ToLower().First() == char.ToLower(s));
+            var users = await _userService.GetUsers(s);
             var models = (from user in users select _mapper.Map<UserViewModel>(user));
             return View(models);
         }
         
         [Route("users/{firstname}")]
-        [Authorize(Roles="authorized,admin")]
+        [ResponseCache(CacheProfileName = "Default")]
         public async Task<IActionResult> Index(string firstName)
         {
-            var users = _context.Users.Where(x => x.FirstName.ToLower().StartsWith(firstName.ToLower()) || x.FirstName.ToLower().EndsWith(firstName.ToLower()));
+            var users = await _userService.GetUsers(firstName);
             var models = (from user in users select _mapper.Map<UserViewModel>(user));
             return View(models);
         }
         
         [Route("users/{firstname}_{lastname}")]
-        [Authorize(Roles="authorized,admin")]
         public async Task<IActionResult> Index(string firstName, string lastname)
         {
-            var users = _context.Users.Where(x => string.Equals(x.FirstName, firstName, StringComparison.CurrentCultureIgnoreCase) && string.Equals(x.LastName, lastname, StringComparison.CurrentCultureIgnoreCase));
-            users.ToList().Sort(new UserBirthDateComparer());
-            var user = await users.FirstOrDefaultAsync();
+            var user = await _userService.GetUser(firstName, lastname);
             return View("Details",_mapper.Map<UserViewModel>(user));
         }
         
         [HttpGet]
         [AllowAnonymous]
+        [ResponseCache(CacheProfileName = "Default")]
         public async Task<IActionResult> GuestIndex()
         {
-            var models = (from user in await _context.Users.ToListAsync() select _mapper.Map<UserViewModel>(user)).ToList();
+            var users = await _userService.GetUsers();
+            var models = (from user in users select _mapper.Map<UserViewModel>(user)).ToList();
             return View(models);
         }
 
@@ -140,7 +142,7 @@ namespace AS.Core.Controllers
             return RedirectToAction(nameof(Index));
         }
         
-        
+        [ResponseCache(CacheProfileName = "Default"),HttpGet]
         public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null)
@@ -148,7 +150,7 @@ namespace AS.Core.Controllers
                 return NotFound();
             }
 
-            var user = await _userManager.FindByIdAsync(id.ToString());
+            var user = await _userService.GetUser((Guid) id);
             if (user == null)
             {
                 return NotFound();
@@ -168,29 +170,17 @@ namespace AS.Core.Controllers
         public async Task<IActionResult> Create(UserViewModel model)
         {
             if (!ModelState.IsValid) return View(model);
-            var path = _appEnvironment.WebRootPath + "/Photos/" + model.Photo.FileName;
-            await using (var fileStream = new FileStream(path, FileMode.Create))
-            {
-                await model.Photo.CopyToAsync(fileStream);
-            }
-            model.PhotoPath = path;
-            var user = _mapper.Map<User>(model);
-            user.UserName = model.Email;
-            var result = await _userManager.CreateAsync(user, _defaultPass);
-            if (result.Succeeded)
-            {
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
+            var result = await _userService.AddUser(model);
+            if (result.Succeeded) return RedirectToAction(nameof(Index));
             foreach (var error in result.Errors)
             {
                 ModelState.AddModelError(string.Empty, error.Description);
             }
+
             return View(model);
         }
         
         [Route("user/{id}/edit")]
-        [Authorize(Roles="admin,authorized")]
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null)
@@ -198,7 +188,7 @@ namespace AS.Core.Controllers
                 return NotFound();
             }
 
-            var user = await _userManager.FindByIdAsync(id.ToString());
+            var user = await _userService.GetUser((Guid)id);
             if (user == null)
             {
                 return NotFound();
@@ -209,46 +199,15 @@ namespace AS.Core.Controllers
         [Route("user/{id}/edit")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles="admin,authorized")]
         public async Task<IActionResult> Edit(EditUserViewModel model)
         {
             if (!ModelState.IsValid) return View(model);
-            var user = await _context.Users.FindAsync(model.Id);
-            try
+            var result = await _userService.EditUser(model);
+            if (result.Succeeded) return RedirectToAction(nameof(Index));
+            foreach (var error in result.Errors)
             {
-                if (model.Photo != null)
-                {
-                    var path = _appEnvironment.WebRootPath + "/Photos/" + model.Photo.FileName;
-                    await using (var fileStream = new FileStream(path, FileMode.Create))
-                    {
-                        await model.Photo.CopyToAsync(fileStream);
-                    }
-
-                    if (user.PhotoPath != null || user.PhotoPath != string.Empty)
-                    {
-                        if (System.IO.File.Exists(user.PhotoPath)) System.IO.File.Delete(user.PhotoPath);
-                    }
-                    user.PhotoPath = path;
-                }
-
-                user.FirstName = model.FirstName;
-                user.LastName = model.LastName;
-                user.BirthDate = model.BirthDate;
-                _context.Update(user);
-                await _context.SaveChangesAsync();
+                ModelState.AddModelError(string.Empty, error.Description);
             }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UserExists(model.Id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
             return RedirectToAction(nameof(Index));
         }
         
@@ -261,8 +220,7 @@ namespace AS.Core.Controllers
                 return NotFound();
             }
 
-            var user = await _context.Users
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var user = await _userService.GetUser((Guid) id);
             if (user == null)
             {
                 return NotFound();
@@ -275,18 +233,8 @@ namespace AS.Core.Controllers
          ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            var user = await _userManager.FindByIdAsync(id.ToString());
-            if(user.PhotoPath != null || user.PhotoPath != string.Empty)
-            {
-                if(System.IO.File.Exists(user.PhotoPath)) System.IO.File.Delete(user.PhotoPath);
-            }
-
-            var result = await _userManager.DeleteAsync(user);
-            if (result.Succeeded)
-            {
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
+            var result = await _userService.DeleteUser(id);
+            if (result.Succeeded) return RedirectToAction(nameof(Index));
             foreach (var error in result.Errors)
             {
                 ModelState.AddModelError(string.Empty, error.Description);
@@ -294,9 +242,32 @@ namespace AS.Core.Controllers
             return View();
         }
 
-        private bool UserExists(Guid id)
+        [Route("create-user-json"), Authorize(Roles = "admin"), HttpPost]
+        public async Task<JsonResult> CreateJson(UserViewModel model)
         {
-            return _context.Users.Any(e => e.Id == id);
+            if (!ModelState.IsValid) return Json(null);
+            var file = HttpContext.Request.Form.Files.FirstOrDefault();
+            if (file == null) return Json(null);
+            model.Photo = file;
+            var user = await _userService.AddUserJson(model);
+            return Json(_mapper.Map<UserViewModel>(user) ?? null);
         }
+
+        [Route("user/{id}/delete-json"), HttpPost, ActionName("Delete"), Authorize(Roles = "admin")]
+        public async Task<JsonResult> DeleteJson(string id)
+        {
+            var result = await _userService.DeleteUser(Guid.Parse(id));
+            if (result.Succeeded) return Json(true);
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+            return Json(false);
+        }
+        
+        /*public async Task<JsonResult> EditFirstName(UserViewModel model)
+        {
+            
+        }*/
     }
 }

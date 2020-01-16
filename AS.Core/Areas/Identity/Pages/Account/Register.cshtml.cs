@@ -99,8 +99,6 @@ namespace AS.Core.Areas.Identity.Pages.Account
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
-                        user = await _userManager.FindByEmailAsync(user.Email);
-                        _userManager.AddToRoleAsync(user,"authorized");
                         return LocalRedirect(returnUrl);
                     }
                 }
